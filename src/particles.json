@@ -48,21 +48,21 @@
         "default": "bounce"
       },
       "random": false,
-      "speed": 6,
+      "speed": 2,
       "straight": false
     },
     "number": {
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 300
       },
       "value": 80
     },
     "opacity": {
-      "value": 0.5
+      "value": 0.2
     },
     "shape": {
-      "type": "circle"
+      "type": "triangle"
     },
     "size": {
       "random": true,
