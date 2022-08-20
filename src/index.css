@@ -3,19 +3,6 @@
   margin: 0;
 }
 
-.toptext {
-
-}
-
-.bottomtext {
-  margin-top: -7%;
-}
-
-.bottomertext {
-  margin-top: -27%;
-  font-size: 11.4vh;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -37,36 +24,28 @@ code {
   top: 0;
   left: 0; 
   width: 100%;
-  
+  animation: slide 30s ease-in-out infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -20vw, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 
 /*NAVBAR*/
 
-#sky {
-  position: fixed;
-  left: 4vw;
-  top: 20px;
-  font-family: 'Helvetica Neue';
-  color:rgb(252, 252, 252);
-  font-size: 350%;
-  user-select: none;
-  transition: 0.4s;
-}
-
-#sky:hover {
-  filter: drop-shadow(3px 3px 0px rgb(20, 20, 20));
-  color:plum;
-  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px, #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px, #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px,   #000 0px 0px 1px;
-  -webkit-font-smoothing: antialiased !important;
-  transform: translate(-4px, -4px);
-  cursor: pointer;
-}
-
- /*container*/
+ /*container for links*/
 .navbar {
   position: fixed;
-  left: 12vw;
+  left: 4vw;
   top: 40px;
 } 
 
@@ -76,8 +55,7 @@ code {
 }
 
 .link {
-  /*background-image: linear-gradient(rgb(60, 60, 60), rgb(60, 60, 60));*/
-  /* background-color: rgb(60, 60, 60); */
+  font-size: 1.5vh;
   color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 2vw 1vh;
@@ -87,12 +65,12 @@ code {
 
 .link:hover {
   color: plum;
-  /*background-image: linear-gradient(rgb(60, 60, 60), rgb(71, 71, 71), rgb(60, 60, 60));*/
-  /* background-image: linear-gradient(rgb(60, 60, 60), rgb(73, 73, 73), rgb(60, 60, 60)); */
   border-right: 1px solid plum;
   border-left: 1px solid plum;
 }
 
+
+/* SOCIALS */
 .social-container {
   position: fixed;
   right: 4vw;
@@ -122,11 +100,6 @@ a.social:hover {
 }
 
 
-/* .content {
-  position: absolute;
-  top: 14vh;
-  left: 35%;
-} */
 
 /*HOME*/
 
@@ -169,8 +142,21 @@ a.social:hover {
   margin-top: 1.7vh;
   text-align: left;
   color: white !important;
-  font-family: 'Gill Sans MT';
+  font-family: 'Abel';
   font-size: 3.7vh;
+}
+
+.toptext {
+
+}
+
+.bottomtext {
+  margin-top: -7%;
+}
+
+.bottomertext {
+  margin-top: -27%;
+  font-size: 11.4vh;
 }
 
 
