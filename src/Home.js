@@ -1,17 +1,17 @@
 import React, {Component} from "react";
 import picture from "./peter.jpeg"; //temp
 import TextLoop from "react-text-loop"; 
+import HeaderText from "./HeaderText";
 
 const Home = () => {
     return ( 
         <div>
             <div className="Home">
                 <div className="Name">
-                    <h1 className="toptext">SKY</h1>
-                    <h1 className="bottomtext">MAWLE</h1>
-                    <hr className="titleBar"></hr>
+                    <HeaderText/>
                     <div className="intro">
-                        <TextLoop delay='5000' mask='true' adjustingSpeed='300' springConfig={{ stiffness: 320, damping: 15 }}>
+                        I'm a 
+                        {" "}<TextLoop delay='1000' mask='true' adjustingSpeed='300' springConfig={{ stiffness: 320, damping: 15 }}>
                             <p>Software Developer</p>
                             <p>Student of Computing</p>
                             <p>Leader</p>

@@ -3,18 +3,16 @@
   margin: 0;
 }
 
-h1 {
-  color:plum;
-  font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: right;
-}
-
 .toptext {
 
 }
 
 .bottomtext {
-  margin-top: -10%;
+  margin-top: -7%;
+}
+
+.bottomertext {
+  margin-top: -27%;
 }
 
 body {
@@ -38,7 +36,7 @@ code {
   top: 0;
   left: 0; 
   width: 100%;
-  margin-top: 80px;
+  
 }
 
 
@@ -104,10 +102,10 @@ code {
 a.social {
   color: black;
   margin: 0 1vw;
-  font-size: 2.5vw;
+  font-size: 4vh;
   border-radius: 50px;
-  margin-left: 1vw;
-  padding: 0.425vw 0.8vw;
+  margin-left: 1vh;
+  padding: 0.3vh 1.3vh;
   background-color: white;
   transition: 0.25s;
   display: inline-block;
@@ -123,31 +121,30 @@ a.social:hover {
 }
 
 
-.content {
+/* .content {
   position: absolute;
   top: 14vh;
-  left: 34%;
-}
+  left: 35%;
+} */
 
 /*HOME*/
 
 .Home {
+  position: relative;
   display: flex;
   flex-flow: row wrap;
   /* flex-direction: row; */
   justify-content: space-evenly;
-
+  margin-top: 7vh;
 }
 
 .Name {
   user-select: none;
-  font-size: 3.75vw;
+  font-size: 6vh;
   margin-top: 1%;
   text-align: right;
   animation: fadeIn 2s;
 }
-
-.bottomtext {}
 
 @keyframes fadeIn {
   0% { opacity: 0; }
@@ -159,25 +156,20 @@ a.social:hover {
   100% { opacity: 0; }
 }
 
-.titleBar {
-  margin-top: 1vh;
-  border: 2px solid plum;
-}
-
 .profilePic {
-  margin-top: 5vh;
-  width: 28vw;
-  border: 1vw solid white;
+  margin-top: 3vh;
+  width: 45vh;
+  /* border: 1vw solid white;
   border-top: 1vw solid plum;
-  border-right: 1vw solid plum;
+  border-right: 1vw solid plum; */
 }
 
 .intro {
-  margin-top: 20px;
+  margin-top: 1.7vh;
   text-align: left;
   color: white !important;
   font-family: 'Gill Sans MT';
-  font-size: 3vw;
+  font-size: 3.7vh;
 }
 
 

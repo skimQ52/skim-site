@@ -7,17 +7,18 @@ const Navbar = () => {
     let navigate = useNavigate();
 
     const goHome = (e) => {
-        navigate('/', { replace: true })
+        navigate('/skim-site', { replace: true })
     }
 
     return ( 
         <div className="navbar">
-            <h1 onClick={goHome} id="sky">SKY</h1>
+            {/* <h1 onClick={goHome} id="sky">SKY</h1> */}
             <nav className="bar">
                 <div className="links">
                     {/* <Link className="link" to="/work">Work Experience</Link>
                     <Link className="link" to="/projects">Personal Projects</Link>
                     <Link className="link" to="/about">About Me</Link> */}
+                    <Link className="link" to="/skim-site">Home</Link>
                     <Link className="link" to="/coop">Co-op</Link>
                 </div>
             </nav>
