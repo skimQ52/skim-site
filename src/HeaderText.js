@@ -1,3 +1,5 @@
+// https://javascript.plainenglish.io/animated-text-gradients-with-react-and-styled-components-93891797eaf1
+
 import React from "react";
 import styled from "styled-components";
 import { keyframes } from "styled-components";
@@ -7,7 +9,7 @@ export default function TextGradient() {
     <>
       <AnimatedGradientText>Sky</AnimatedGradientText>
       <AnimatedGradientText className="bottomtext">Mawle</AnimatedGradientText>
-      <AnimatedGradientText className="bottomertext">_________</AnimatedGradientText>
+      <AnimatedGradientText className="bottomertext">__________</AnimatedGradientText>
     </>
   );
 }
