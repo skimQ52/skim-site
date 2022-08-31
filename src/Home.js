@@ -22,6 +22,10 @@ const Home = () => {
                         <img src={picture} alt="A picture of myself" className="profilePic"></img>
                     </div>  
                 </div>
+
+                {/* <div className="Exp">
+                    <h1>Experience</h1>
+                </div> */}
             </div>
         </div>
     );
