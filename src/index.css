@@ -183,9 +183,19 @@ a.social:hover {
   
   margin-left: 5vw;
   text-align: left;
-  color: rgb(136, 136, 136) !important;
+  color: rgb(158, 158, 158) !important;
   font-family: 'Lato';
-  font-size: 3.7vh;
+  font-size: 4.2vh;
+}
+
+.subsubheader {
+  
+  margin-left: 10vw;
+  text-align: left;
+  color: rgb(158, 158, 158) !important;
+  font-family: 'Lato';
+  font-size: 3.2vh;
+  font-style: italic;
 }
 
 .text {
@@ -193,13 +203,12 @@ a.social:hover {
   color: rgb(230, 230, 230) !important;
   font-family: 'Anek Telugu';
   font-size: 2.5vh;
-  width: 50%;
-  margin-left: 10vw;
+  width: 80%;
+  /* margin-left: 10vw; */
 }
 
 .picture {
   padding: 10px;
-  margin-left: 10vw;
   background-color: aliceblue;
 }
 
@@ -208,6 +217,7 @@ a.social:hover {
   flex-flow: row;
   position: relative;
   margin-top: 2vh;
+  margin-left: 10vw;
 }
 
 .chunk {
