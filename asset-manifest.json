@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/skim-site/static/css/main.871fd22e.css",
-    "main.js": "/skim-site/static/js/main.472d32ac.js",
+    "main.css": "/skim-site/static/css/main.c4abed7c.css",
+    "main.js": "/skim-site/static/js/main.33c30eb5.js",
     "static/media/horse.png": "/skim-site/static/media/horse.3e40895a820541d1533f.png",
     "static/media/peter.jpeg": "/skim-site/static/media/peter.1e1bdbd6b56718d20165.jpeg",
     "static/media/yolo.png": "/skim-site/static/media/yolo.c0abcadab08fc1cd33b5.png",
     "index.html": "/skim-site/index.html",
-    "main.871fd22e.css.map": "/skim-site/static/css/main.871fd22e.css.map",
-    "main.472d32ac.js.map": "/skim-site/static/js/main.472d32ac.js.map"
+    "main.c4abed7c.css.map": "/skim-site/static/css/main.c4abed7c.css.map",
+    "main.33c30eb5.js.map": "/skim-site/static/js/main.33c30eb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.871fd22e.css",
-    "static/js/main.472d32ac.js"
+    "static/css/main.c4abed7c.css",
+    "static/js/main.33c30eb5.js"
   ]
 }
