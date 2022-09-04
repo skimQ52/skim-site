@@ -70,7 +70,7 @@ const Coop = () => {
                     <p className="text" style={{marginLeft: "0vw", marginRight: "2vw", width: "65%"}}>
                     My greatest contribution over the summer was researching, studying and developing documentation on new (for the lab) 
                     object detection libraries. In the past, the Robotics Institute has mainly been using only one object detection library, 
-                    Facebook Architecture’s ‘Detectron2’. While detectron2 is great, it is not always sufficient or the most optimal for a given 
+                    Facebook Architecture’s ‘Detectron2’. While Detectron2 is great, it is not always sufficient or the most optimal for a given 
                     problem and it’s useful to have information and understanding of other libraries and be able to get them up and running with 
                     little hassle. I acted as the ‘Guinea Pig’, delving into 3 new object detection libraries, YOLOv5, SSD and YOLACT. I got 
                     comfortable with the implementations, tested their capabilities, created tutorial-like documentation and even refactored 
@@ -86,9 +86,11 @@ const Coop = () => {
                 <h2 className="subsubheader">Annotating Datasets</h2>
                 <div className="block">
                     <p className="text">
-                    A secondary piece of my job here and there over the summer was generating annotated datasets, using the COCO Annotator. 
+                    A secondary piece of my job here and there over the summer was generating annotated datasets, using 'COCO Annotator'. 
+                    COCO Annotator is a web-based annotation tool used on datasets to label images in creating training data for image localization and object detection.
                     This is an imperative step in almost every single project within the Robotics Institute. There can be no object detection 
-                    with no properly annotated dataset. While being extremely strenuous and not exactly exhilarating, understanding its crucialness 
+                    with no properly annotated dataset. I annotated over 500 images, each having a deep array of objects and areas (categories) to annotate, using various tools within the program.
+                    While being extremely strenuous and not exactly exhilarating, understanding its crucialness 
                     to the process of object detection, conjoined with the responsibility of getting it done properly yet efficiently was indeed motivating.
                     <br></br>
                     <br></br>
@@ -153,7 +155,7 @@ const Coop = () => {
                     <br></br>
                     </p>
                 </div>
-                <img src={horsePic} alt="me and the horse!" style={{width: "70vh", margin: "auto", display: "block", marginBottom: "10vh"}} className="picture"></img>
+                <img src={horsePic} alt="me and the horse!" style={{width: "50vw", margin: "auto", display: "block", marginBottom: "10vh"}} className="picture"></img>
             </div>
         </div>
      );

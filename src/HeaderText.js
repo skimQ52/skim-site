@@ -9,7 +9,7 @@ export default function TextGradient() {
     <>
       <AnimatedGradientText>Sky</AnimatedGradientText>
       <AnimatedGradientText className="bottomtext">Mawle</AnimatedGradientText>
-      <AnimatedGradientText className="bottomertext">__________</AnimatedGradientText>
+      <AnimatedGradientText className="bottomertext">___________</AnimatedGradientText>
     </>
   );
 }
