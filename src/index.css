@@ -104,6 +104,12 @@ a.social:hover {
 /*HOME*/
 
 .Home {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+
+.NameContainer {
   position: relative;
   display: flex;
   flex-flow: row wrap;
@@ -160,18 +166,32 @@ a.social:hover {
   letter-spacing: -4px;
 }
 
+.Exp {
+  margin-top: 7vh;
+  margin-left: 10%;
+}
+
+.titleHeader {
+  text-align: left;
+  color: rgb(0, 0, 0) !important;
+  font-family: 'Abel';
+  font-size: 7vh;
+  margin-bottom: 5vh;
+  background-color: white;
+}
+
 .Coop {
   position: relative;
   display: block;
   flex-flow: row;
   flex-direction: row;
   /* justify-content: space-evenly; */
-  margin-top: 7vh;
+  margin-top: 15vh;
   animation: fadeIn 2s;
 }
 
 .header {
-  margin-top: 12.7vh;
+  
   margin-left: 5vw;
   text-align: left;
   color: white !important;
