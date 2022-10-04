@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import picture from "./peter.jpeg"; //temp
+import picture from "./me.JPG";
 import TextLoop from "react-text-loop"; 
 import HeaderText from "./HeaderText";
 
