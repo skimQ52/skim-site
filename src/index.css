@@ -139,9 +139,6 @@ a.social:hover {
 .profilePic {
   margin-top: 3vh;
   width: 45vh;
-  /* border: 1vw solid white;
-  border-top: 1vw solid plum;
-  border-right: 1vw solid plum; */
   border-radius: 2%;
 }
 
@@ -167,19 +164,80 @@ a.social:hover {
   letter-spacing: -4px;
 }
 
+/* Experience */
+
 .Exp {
   margin-top: 7vh;
   margin-left: 10%;
+  padding-bottom: 50px;
+}
+
+.hrExp {
+  margin: 3vh 0vh;
+  width: 90%;
+}
+
+.logoExp {
+  width: 20vh;
+  border-radius: 8%;
+}
+
+.blockExp {
+  margin-top: 10vh;
+  display: flex;
+  flex-flow: row;
+  position: relative;
+}
+
+.chunkExp {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+
+.headerBox {
+  margin-left: -5%;
+  display: inline-block;
 }
 
 .titleHeader {
   text-align: left;
-  color: rgb(0, 0, 0) !important;
-  font-family: 'Abel';
+  color: rgb(255, 255, 255) !important;
+  font-family: 'Lato';
   font-size: 7vh;
-  margin-bottom: 5vh;
-  background-color: white;
+  padding-right: 1vh;
+  margin-bottom: 0vh;
+  border-bottom: 0.4vh solid rgb(100, 100, 100);
+  border-right: 0.4vh solid rgb(100, 100, 100);
+  border-radius: 0 0 30px 0;
 }
+
+.headerExp {
+  margin-left: 2vh;
+  text-align: left;
+  color: white !important;
+  font-family: 'Abel', 'Lato';
+  font-size: 6vh;
+}
+
+.subheaderExp {
+  margin-left: 2vh;
+  text-align: left;
+  color: rgb(158, 158, 158) !important;
+  font-family: 'Lato';
+  font-size: 4vh;
+}
+
+/* ABOUT ME */
+
+.About {
+  margin-top: 12vh;
+  margin-left: 10%;
+  padding-bottom: 50px;
+}
+
+
+/* COOP PAGE */
 
 .Coop {
   position: relative;
@@ -192,7 +250,6 @@ a.social:hover {
 }
 
 .header {
-  
   margin-left: 5vw;
   text-align: left;
   color: white !important;
@@ -201,7 +258,6 @@ a.social:hover {
 }
 
 .subheader {
-  
   margin-left: 5vw;
   text-align: left;
   color: rgb(158, 158, 158) !important;
@@ -210,7 +266,6 @@ a.social:hover {
 }
 
 .subsubheader {
-  
   margin-left: 10vw;
   text-align: left;
   color: rgb(158, 158, 158) !important;
@@ -225,7 +280,6 @@ a.social:hover {
   font-family: 'Anek Telugu';
   font-size: 2.5vh;
   width: 80%;
-  /* margin-left: 10vw; */
 }
 
 .picture {
