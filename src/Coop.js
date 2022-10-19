@@ -58,11 +58,6 @@ const Coop = () => {
                         what I did throughout the semester mainly needed to be learned on the job.
                         <br></br>
                         <br></br>
-                        {/* <ul style={{fontSize: "3vh", marginLeft: "5vw"}}>
-                            <li>New Object Detection Libraries</li>
-                            <li>Annotating Datasets</li>
-                            <li>Miscellaneous Script Creation</li>
-                        </ul> */}
                     </p>
                 </div>
                 <h2 className="subsubheader">New Object Detection Libraries</h2>
