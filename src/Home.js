@@ -62,23 +62,30 @@ const Home = () => {
                         <h1 className="titleHeader">About Me</h1>
                     </div>
                     <div className="block">
-                        <p className="text" style={{marginLeft: "0vw", marginRight: "2vw", width: "65%"}}>
-                            My greatest contribution over the summer was researching, studying and developing documentation on new (for the lab) 
-                            object detection libraries. In the past, the Robotics Institute has mainly been using only one object detection library, 
-                            Facebook Architecture’s ‘Detectron2’. While Detectron2 is great, it is not always sufficient or the most optimal for a given 
-                            problem and it’s useful to have information and understanding of other libraries and be able to get them up and running with 
-                            little hassle. I acted as the ‘Guinea Pig’, delving into 3 new object detection libraries, YOLOv5, SSD and YOLACT. I got 
-                            comfortable with the implementations, tested their capabilities, created tutorial-like documentation and even refactored 
-                            code and constructed repositories so that anyone working in the Robotics Institute who needed access to any of the libraries 
-                            could use them, specifically, train and detect with a custom dataset. Additionally, if anyone needed any extra assistance in 
-                            setting up and running the models, I was there to help. Delving into new sizable libraries with little direction and aid like 
-                            the ones I did can be extremely tedious. The contributions I made make that grueling experience significantly smoother.
+                    <img src={meandbird} alt="Ontop a mountain holding a bird" style={{marginLeft: "0vw", marginRight: "2vw", height: "min(40vw, 40vh)", width: "min(30vw, 30vh)"}}></img>
+                        <p className="text" style={{marginLeft: "0vw", marginRight: "2vw", width: "45%", fontSize: "min(2.5vh, 2.4vw)"}}>
+                            I'm Sky, a third year Computer Science student at the University of Guelph.
+                            Aside from programming, I love to spend time outside aswell as hone my skills in various 
+                            sports like skateboarding. Equipt with a big smile and a positive mindset, I've always been 
+                            seen as and taken the role of a leader.
+                            <br></br>
+                            <br></br>
+                            At Erin District Highschool, where I studied between the years of 2016 and 2020, 
+                            I played rugby as team captain. I graduated in 2020 during the early stages of COVID-19 as Class 
+                            Valedictorian. I also played basketball, hockey and even wrestled for some time.
+                        </p>
+                    </div>
+                    <div className="block">
+                        <p className="text" style={{marginLeft: "0vw", marginRight: "2vw", width: "45%", fontSize: "min(2.5vh, 2.4vw)"}}>
+                            As a programmer I believe I am a valuable asset not only because of my aptitude and 
+                            and experience in the field, but also due to my leadership skills and interpersonal skills,
+                            which I see to always be principal in a team or community. I am currently searching for 
+                            a Co-op for the summer of 2023.
                             <br></br>
                             <br></br>
                         </p>
-                        <img src={meandbird} alt="Ontop a mountain holding a bird" style={{marginLeft: "0vw", marginRight: "2vw", width: "25%"}}></img>
+                        <img src={rugby} alt="Rugby lineout!" style={{marginLeft: "0vw", marginRight: "2vw", height: "min(30vw, 30vh)", width: "min(30vw, 30vh)"}}></img>
                     </div>
-                    <img src={rugby} alt="Rugby lineout!" style={{marginLeft: "0vw", marginRight: "2vw", width: "25%"}}></img>
                 </div>
             </div>
             
