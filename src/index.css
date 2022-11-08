@@ -115,12 +115,12 @@ a.social:hover {
   flex-flow: row wrap;
   /* flex-direction: row; */
   justify-content: space-evenly;
-  margin-top: 7vh;
+  margin-top: min(7vh, 12vw);
 }
 
 .Name {
   user-select: none;
-  font-size: 6vh;
+  font-size: min(6vh, 10vw);
   margin-top: 1%;
   text-align: right;
   animation: fadeIn 2s;
@@ -137,17 +137,17 @@ a.social:hover {
 }
 
 .profilePic {
-  margin-top: 3vh;
-  width: 45vh;
+  margin-top: min(3vh, 3vw);
+  width: min(45vh, 75vw);
   border-radius: 2%;
 }
 
 .intro {
-  margin-top: 1.7vh;
+  margin-top: min(1.7vh, 4vw);
   text-align: left;
   color: white !important;
   font-family: 'Abel';
-  font-size: 3.7vh;
+  font-size: min(3.7vh, 6.2vw);
 }
 
 .toptext {
@@ -160,31 +160,30 @@ a.social:hover {
 
 .bottomertext {
   margin-top: -27%;
-  font-size: 11.4vh;
+  font-size: min(11.4vh, 19vw);
   letter-spacing: -4px;
 }
 
 /* Experience */
 
 .Exp {
-  margin-top: 7vh;
+  margin-top: min(20vh, 42vw);
   margin-left: 10%;
   padding-bottom: 50px;
 }
 
 .hrExp {
-  margin: 3vh 0vh;
+  margin: min(6vh, 6vw) 0vh;
   width: 90%;
 }
 
 .logoExp {
-  width: 20vh;
-  height: 20vh;
+  width: min(15vh, 15vw);
+  height: min(15vh, 15vw);
   border-radius: 8%;
 }
 
 .blockExp {
-  margin-top: 10vh;
   display: flex;
   flex-flow: row;
   position: relative;
@@ -198,11 +197,10 @@ a.social:hover {
 
 .listExp {
   margin-left: min(22vh, 17vw);
-  margin-top: 0.2vh;
   text-align: left;
   color: rgb(158, 158, 158) !important;
   font-family: 'Abel';
-  font-size: min(3vh, 4vw);
+  font-size: min(2vh, 3vw);
 }
 
 .elementExp {
@@ -218,9 +216,9 @@ a.social:hover {
   text-align: left;
   color: rgb(255, 255, 255) !important;
   font-family: 'Lato';
-  font-size: min(11vw, 7vh);
+  font-size: min(9vw, 6vh);
   padding-right: min(1vh, 0.6vw);
-  margin-bottom: 0vh;
+  margin-bottom: min(6vh, 5vw);
   border-bottom: min(0.4vh, 0.4vw) solid rgb(100, 100, 100);
   border-right: min(0.4vh, 0.4vw) solid rgb(100, 100, 100);
   border-radius: 0 0 min(3vh, 3vw) 0;
@@ -231,7 +229,7 @@ a.social:hover {
   text-align: left;
   color: white !important;
   font-family: 'Abel', 'Lato';
-  font-size: min(6vw, 6vh);
+  font-size: min(5vw, 5vh);
 }
 
 .subheaderExp {
@@ -239,13 +237,13 @@ a.social:hover {
   text-align: left;
   color: rgb(158, 158, 158) !important;
   font-family: 'Lato';
-  font-size: min(4vw, 4vh);
+  font-size: min(3vw, 3vh);
 }
 
 /* ABOUT ME */
 
 .About {
-  margin-top: 12vh;
+  margin-top: 2%;
   margin-left: 10%;
   padding-bottom: 50px;
 }

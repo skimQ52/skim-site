@@ -6,12 +6,14 @@ import rugby from "./rugby.JPG";
 import uoguelph from "./uoguelph.jpg";
 import TextLoop from "react-text-loop"; 
 import HeaderText from "./HeaderText";
+import Fade from 'react-reveal/Fade';
 
 const Home = () => {
     return ( 
         <div>
             <div className="Home">
                 <div className="NameContainer">
+                    <Fade top>
                     <div className="Name">
                         <HeaderText/>
                         <div className="intro">
@@ -27,11 +29,14 @@ const Home = () => {
                             <img src={picture} alt="A picture of myself" className="profilePic"></img>
                         </div>  
                     </div>
+                    </Fade>
                 </div>
+                
                 <div className="Exp">
                     <div className="headerBox">
                         <h1 className="titleHeader">Experience</h1>
                     </div>
+                    <Fade left>
                     <div className="blockExp">
                         <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
                         <div>
@@ -40,6 +45,7 @@ const Home = () => {
                         </div>
                     </div>
                     <hr className="hrExp"></hr>
+
                     <div className="chunkExp">
                         <div className="blockExp">
                             <img src={uoguelph} alt="University of Guelph Logo" className="logoExp"></img>
@@ -54,19 +60,23 @@ const Home = () => {
                             <li className="elementExp">Created tutorial-like documentation along with GitLab repositories for future use in the lab</li>
                         </ul>
                     </div>
-                    
+                    </Fade>
                 </div>
-
+                
                 <div className="About">
+                    
                     <div className="headerBox">
+                        <Fade left>
                         <h1 className="titleHeader">About Me</h1>
+                        </Fade>
                     </div>
+                    <Fade>
                     <div className="block">
                     <img src={meandbird} alt="Ontop a mountain holding a bird" style={{marginLeft: "0vw", marginRight: "2vw", height: "min(40vw, 40vh)", width: "min(30vw, 30vh)"}}></img>
                         <p className="text" style={{marginLeft: "0vw", marginRight: "2vw", width: "45%", fontSize: "min(2.5vh, 2.4vw)"}}>
                             I'm Sky, a third year Computer Science student at the University of Guelph.
-                            Aside from programming, I love to spend time outside aswell as hone my skills in various 
-                            sports like skateboarding. Equipt with a big smile and a positive mindset, I've always been 
+                            Aside from programming, I love to spend time outside, as well as hone my skills in various 
+                            sports like skateboarding. Equipped with a big smile and a positive mindset, I've always been 
                             seen as and taken the role of a leader.
                             <br></br>
                             <br></br>
@@ -78,17 +88,15 @@ const Home = () => {
                     <div className="block">
                         <p className="text" style={{marginLeft: "0vw", marginRight: "2vw", width: "45%", fontSize: "min(2.5vh, 2.4vw)"}}>
                             As a programmer I believe I am a valuable asset not only because of my aptitude and 
-                            and experience in the field, but also due to my leadership skills and interpersonal skills,
-                            which I see to always be principal in a team or community. I am currently searching for 
-                            a Co-op for the summer of 2023.
+                            and experience in the field, but also due to my leadership skills and interpersonal skills. 
                             <br></br>
                             <br></br>
                         </p>
                         <img src={rugby} alt="Rugby lineout!" style={{marginLeft: "0vw", marginRight: "2vw", height: "min(30vw, 30vh)", width: "min(30vw, 30vh)"}}></img>
                     </div>
+                    </Fade>
                 </div>
             </div>
-            
         </div>
     );
 }
