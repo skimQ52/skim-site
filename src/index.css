@@ -248,10 +248,48 @@ a.social:hover {
   padding-bottom: 50px;
 }
 
-
-/* COOP PAGE */
+/* COOP HUB */
 
 .Coop {
+  position: relative;
+  display: block;
+  flex-flow: row;
+  flex-direction: row;
+  margin-top: 10vh;
+}
+
+.hrCoop {
+  width: 90%;
+  margin: auto;
+}
+
+.item {
+  border-radius: min(5vh, 6vw);
+  margin: min(5vh, 4vw) min(8vh, 6vw);
+  height: min(20vh, 22vw);
+  background-color: rgba(145, 145, 145, 0.233);
+  -webkit-font-smoothing: antialiased !important;
+  position: relative;
+}
+
+.item:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: rgba(110, 110, 110, 0.568);
+}
+
+.blockCoop {
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: min(3.5vh, 2.5vw);
+}
+
+/* Machine vision COOP PAGE */
+
+.Machine {
   position: relative;
   display: block;
   flex-flow: row;

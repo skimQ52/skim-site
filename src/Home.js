@@ -33,15 +33,17 @@ const Home = () => {
                 </div>
                 
                 <div className="Exp">
+                    <Fade>
                     <div className="headerBox">
                         <h1 className="titleHeader">Experience</h1>
                     </div>
+                    </Fade>
                     <Fade left>
                     <div className="blockExp">
                         <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
                         <div>
                             <h2 className="headerExp">Brock Solutions</h2>
-                            <h2 className="subheaderExp">Software Developer (Co-op) | Current Position</h2> 
+                            <h2 className="subheaderExp">Software Developer (CO-OP) | Current Position</h2> 
                         </div>
                     </div>
                     <hr className="hrExp"></hr>

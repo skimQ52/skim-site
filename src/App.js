@@ -2,11 +2,8 @@ import { Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import NotFound from './NotFound';
 import Navbar from './Navbar';
 import Home from './Home';
-// import Work from './Work';
-// import Projects from './Projects';
-// import About from './About';
 import Coop from './Coop';
-import SocialFollow from './SocialFollow';
+import Machine from './Machine';
 import SvgLines from 'react-mt-svg-lines'; 
 
 function App() {
@@ -30,7 +27,8 @@ function App() {
             <div className="content">
                 <Routes>
                     <Route path="/skim-site" element={<Home/>}/>
-                    <Route path="/coop" element={<Coop/>}/>
+                    <Route path="/coop/machine" element={<Machine/>}/>
+                    <Route path="/coop" element={<Coop/>}/>     
                 </Routes>
             </div>
         </div>
