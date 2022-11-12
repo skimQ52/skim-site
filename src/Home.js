@@ -90,7 +90,7 @@ const Home = () => {
                     <div className="block">
                         <p className="text" style={{marginLeft: "0vw", marginRight: "2vw", width: "45%", fontSize: "min(2.5vh, 2.4vw)"}}>
                             As a programmer I believe I am a valuable asset not only because of my aptitude and 
-                            and experience in the field, but also due to my leadership skills and interpersonal skills. 
+                            and experience in the field, but also due to my leadership and interpersonal skills. 
                             <br></br>
                             <br></br>
                         </p>
