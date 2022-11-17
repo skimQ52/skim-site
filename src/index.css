@@ -46,7 +46,7 @@ code {
 .navbar {
   position: fixed;
   left: 2vw;
-  top: 40px;
+  top: 3%;
 } 
 
 .bar { /* with all the links */
@@ -74,7 +74,7 @@ code {
 .social-container {
   position: fixed;
   right: 4vw;
-  top: 20px;
+  top: 3%;
   transition: 0.6s;
 }
 
@@ -160,8 +160,8 @@ a.social:hover {
 
 .bottomertext {
   margin-top: -27%;
-  font-size: min(11.4vh, 19vw);
-  letter-spacing: 0px;
+  font-size: min(13.4vh, 19vw);
+  letter-spacing: max(-0.8vh, -0.85vw);
 }
 
 /* Experience */
