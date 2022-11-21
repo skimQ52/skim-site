@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
                 
                 <div className="Exp">
-                    <Fade>
+                    <Fade left>
                     <div className="headerBox">
                         <h1 className="titleHeader">Experience</h1>
                     </div>
