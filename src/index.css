@@ -27,6 +27,12 @@ code {
   animation: slide 30s ease-in-out infinite;
 }
 
+.centered {
+  display: 'flex';
+  justify-content:'center';
+  align-items:'center';
+}
+
 @keyframes slide {
   0% {
     transform: translate3d(0, 0, 0);
@@ -150,10 +156,6 @@ a.social:hover {
   font-size: min(3.7vh, 6.2vw);
 }
 
-.toptext {
-
-}
-
 .bottomtext {
   margin-top: -7%;
 }
@@ -243,9 +245,33 @@ a.social:hover {
 /* ABOUT ME */
 
 .About {
+  position: relative;
+  display: block;
+  flex-flow: row;
   margin-top: 2%;
   margin-left: 10%;
   padding-bottom: 50px;
+}
+
+.textAbout {
+  padding: min(3vh, 5vw);
+  font-size: min(2.25vh, 3vw);
+  color: rgb(190, 190, 190);
+  font-family: 'Anek Telugu';
+}
+
+.blockAbout {
+  width: max(40vh, 50vw);
+  border-radius: min(5vh, 6vw);
+  background-color: rgba(145, 145, 145, 0.103);
+}
+
+.chunkAbout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  margin-left: -10%;
 }
 
 /* COOP HUB */

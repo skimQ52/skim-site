@@ -66,35 +66,30 @@ const Home = () => {
                 </div>
                 
                 <div className="About">
-                    
+
                     <div className="headerBox">
                         <Fade left>
                         <h1 className="titleHeader">About Me</h1>
                         </Fade>
                     </div>
-                    <Fade>
-                    <div className="block">
-                    <img src={meandbird} alt="Ontop a mountain holding a bird" style={{marginLeft: "0vw", marginRight: "2vw", height: "min(40vw, 40vh)", width: "min(30vw, 30vh)"}}></img>
-                        <p className="text" style={{marginLeft: "0vw", marginRight: "2vw", width: "45%", fontSize: "min(2.5vh, 2.4vw)"}}>
-                            I'm Sky, a third year Computer Science student at the University of Guelph.
-                            Aside from programming, I love to spend time outside, as well as hone my skills in various 
-                            sports like skateboarding. Equipped with a big smile and a positive mindset, I've always been 
-                            seen as and taken the role of a leader.
-                            <br></br>
-                            <br></br>
-                            At Erin District Highschool, where I studied between the years of 2016 and 2020, 
-                            I played rugby as team captain. I graduated in 2020 during the early stages of COVID-19 as Class 
-                            Valedictorian. I also played basketball, hockey and even wrestled for some time.
-                        </p>
-                    </div>
-                    <div className="block">
-                        <p className="text" style={{marginLeft: "0vw", marginRight: "2vw", width: "45%", fontSize: "min(2.5vh, 2.4vw)"}}>
-                            As a programmer I believe I am a valuable asset not only because of my aptitude and 
-                            and experience in the field, but also due to my leadership and interpersonal skills. 
-                            <br></br>
-                            <br></br>
-                        </p>
-                        <img src={rugby} alt="Rugby lineout!" style={{marginLeft: "0vw", marginRight: "2vw", height: "min(30vw, 30vh)", width: "min(30vw, 30vh)"}}></img>
+                    <Fade left>
+                    <div className="chunkAbout">
+                        <div className="blockAbout">
+                            <p className="textAbout">
+                                <span style={{fontSize: "min(4.5vh, 6vw)", lineHeight: "0.01", color: "white"}}>Hi there!</span> I'm a third year Computer Science student studying at the University of Guelph.
+                                Aside from programming, I love to spend time outside, as well as hone my skills in various 
+                                sports like skateboarding. I have also played basketball, hockey and even wrestled for some time.
+                                Equipped with a big smile and a positive mindset, I am a natural born leader.
+                                Some leadership roles I've taken on in my life include the class of 2020's
+                                Valedictorian at Erin District High School, as well as team captain of the school's rugby team.
+                                I am a valuable asset due to my technical skills,
+                                experience in the field, and my leadership and interpersonal aptitude. 
+                            </p>
+                            <div style={{padding: "min(3vh, 2vw)", paddingTop: "0", display: "flex", justifyContent: "space-evenly"}}>
+                                <img src={rugby} alt="Rugby lineout!" style={{borderRadius: "10%", marginLeft: "0vw", marginRight: "2vw", height: "min(30vw, 30vh)", width: "min(30vw, 30vh)", boxShadow: "0.1vw 0.1vw 8px black"}}></img>
+                                <img src={meandbird} alt="Ontop a mountain holding a bird" style={{borderRadius: "10%", marginLeft: "0vw", marginRight: "2vw", objectFit: "cover", height: "min(30vw, 30vh)", width: "min(30vw, 30vh)", objectPosition: "0 80%", boxShadow: "0.1vw 0.1vw 8px black"}}></img>
+                            </div>
+                        </div>
                     </div>
                     </Fade>
                 </div>
