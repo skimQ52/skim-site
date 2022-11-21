@@ -76,8 +76,7 @@ const Home = () => {
                     <div className="chunkAbout">
                         <div className="blockAbout">
                             <p className="textAbout">
-                                <span style={{fontSize: "min(4.5vh, 6vw)", lineHeight: "0.01", color: "white"}}>Hi there!</span>
-                                 I'm a third year Computer Science student studying at the University of Guelph.
+                                <span style={{fontSize: "min(4.5vh, 6vw)", lineHeight: "0.01", color: "white"}}>Hi there!</span> I'm a third year Computer Science student studying at the University of Guelph.
                                 Aside from programming, I love to spend time outside, as well as hone my skills in various 
                                 sports like skateboarding. I have also played basketball, hockey and even wrestled for some time.
                                 Equipped with a big smile and a positive mindset, I am a natural born leader.
