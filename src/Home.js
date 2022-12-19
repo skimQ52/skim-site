@@ -39,12 +39,20 @@ const Home = () => {
                     </div>
                     </Fade>
                     <Fade left>
-                    <div className="blockExp">
-                        <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
-                        <div>
-                            <h2 className="headerExp">Brock Solutions</h2>
-                            <h2 className="subheaderExp">Software Developer (CO-OP) | Current Position</h2> 
+                    <div className="chunkExp">
+                        <div className="blockExp">
+                            <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
+                            <div>
+                                <h2 className="headerExp">Brock Solutions</h2>
+                                <h2 className="subheaderExp">Software Developer (CO-OP) | September - December 2022</h2> 
+                            </div>
                         </div>
+                        <ul className="listExp">
+                            <li className="elementExp">Developed software in Java for a large-scale Manufacturing Execution System</li>
+                            <li className="elementExp">Designed and implemented user interfaces among other features to be used by engineers daily</li>
+                            <li className="elementExp">Created and manipulated SQL stored procedures for database interaction</li>
+                            <li className="elementExp">Collaborated via DevOps in a small development team of software engineers to produce efficient code</li>
+                        </ul>
                     </div>
                     <hr className="hrExp"></hr>
 
