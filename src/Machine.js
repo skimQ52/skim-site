@@ -11,7 +11,7 @@ const Machine = () => {
 
             <div className="chunk">
                 <div className="block">
-                    <p className="text">
+                    <p className="text" style={{fontWeight: "bold"}}>
                         In the summer of 2022, during my first CO-OP work term I worked as an Undergraduate Research Assistant 
                         under Dr. Medhat Moussa in the University of Guelph Robotics Institute. It was a great experience and this 
                         report is to detail my role and what I learned along the way.
@@ -48,8 +48,8 @@ const Machine = () => {
                 <h2 className="subheader">My Role and Contributions</h2>
                 <div className="block">
                     <p className="text">
-                        In the world of robotics, machine vision–the technological methods used to provide imaging-based automatic inspection and 
-                        analysis–is absolutely key, specifically in the context of object detection, and that is exactly where I come in. As a 
+                        In the world of robotics, machine vision, the technological methods used to provide imaging-based automatic inspection and 
+                        analysis, is absolutely key. Specifically in the context of object detection, and that is exactly where I come in. As a 
                         Machine Vision and Robotics Research Assistant, I had primary influence on several parts of the machine vision and object 
                         detection process. While my academic studies have definitely helped in terms of general knowledge of programming and automation, 
                         what I did throughout the semester mainly needed to be learned on the job.

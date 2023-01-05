@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Coop from './Coop';
 import Machine from './Machine';
+import Brock from './Brock';
 import SvgLines from 'react-mt-svg-lines'; 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
                 <Routes>
                     <Route path="/skim-site" element={<Home/>}/>
                     <Route path="/coop/machine" element={<Machine/>}/>
+                    <Route path="/coop/brock" element={<Brock/>}/>
                     <Route path="/coop" element={<Coop/>}/>     
                 </Routes>
             </div>
