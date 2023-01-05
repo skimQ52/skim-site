@@ -134,8 +134,7 @@ const Machine = () => {
                     Brock’s rich and friendly culture, as well as direct advisory from my Talent Manager, enlightened me about the importance 
                     of working in a healthy and happy environment, that working amongst your friends and people that care for you is just as 
                     important if not more important than the compensation you receive. This is something you hear about all the time through 
-                    friends and family growing up: “Work somewhere you love and you won’t work a day in your life” etc… but I believe it was v
-                    ery eye opening to see such things first hand.
+                    friends and family growing up: “Work somewhere you love and you won’t work a day in your life” etc… but I believe it was very eye opening to see such things first hand.
                     <br></br>
                     <br></br>
                     Another useful thing I gained insight on was how to navigate through an organization, 
