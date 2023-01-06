@@ -1,4 +1,3 @@
-import roboticsPic from "./robotics_institute_logo.png"
 import javaPic from "./java.png"
 import React from "react";
 

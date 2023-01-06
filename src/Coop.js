@@ -2,6 +2,7 @@ import React from "react";
 import Bounce from 'react-reveal/Bounce';
 import { useNavigate } from 'react-router-dom';
 import uoguelph from "./uoguelph.jpg";
+import brock from "./brock.jpg";
 
 const Coop = () => {
 
@@ -33,7 +34,7 @@ const Coop = () => {
 
             <div class="item" onClick={goBrock}>
                 <div className="blockCoop">
-                    <img src={uoguelph} alt="Brock Solutions Logo" className="logoExp"></img>
+                    <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
                     <div>
                         <h2 className="headerExp">Brock Solutions</h2>
                         <h2 className="subheaderExp">Software Developer | Work Term 2</h2>
