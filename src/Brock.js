@@ -5,7 +5,7 @@ const Machine = () => {
     return ( 
         <div className="Machine">
             <h1 className="header">Fall 2022 | Brock Solutions</h1>
-            <h2 className="subheader">Software Developer</h2>
+            <h2 className="subheader">Software Developer Co-op</h2>
 
             <div className="chunk">
                 <div className="block">
