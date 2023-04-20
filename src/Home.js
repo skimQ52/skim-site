@@ -66,9 +66,10 @@ const Home = () => {
                             </div>
                         </div>
                         <ul className="listExp">
-                            <li className="elementExp">Implemented and evaluated various Machine Learning Object Detection libraries for use in several projects</li>
+                            <li className="elementExp">Implemented and evaluated various Machine Learning Object Detection libraries for use in several masters thesis projects</li>
                             <li className="elementExp">Developed an array of Python scripts which interacted with the models under different contexts</li>
-                            <li className="elementExp">Created tutorial-like documentation along with GitLab repositories for future use in the lab</li>
+                            <li className="elementExp">Assisted masters students in employing different Object Detection libraries into their projects</li>
+                            <li className="elementExp">Created tutorial-like documentation paired with GitLab repositories for future use in the lab</li>
                         </ul>
                     </div>
                     </Fade>
