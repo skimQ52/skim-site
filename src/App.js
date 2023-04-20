@@ -1,5 +1,4 @@
-import { Router, Routes, Route, BrowserRouter } from 'react-router-dom';
-import NotFound from './NotFound';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
 import Coop from './Coop';

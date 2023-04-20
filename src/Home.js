@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import picture from "./me.JPG";
 import meandbird from "./meandbird.jpg";
 import brock from "./brock.jpg";
@@ -26,7 +26,7 @@ const Home = () => {
                             </TextLoop>
                         </div>
                         <div className="Picture">
-                            <img src={picture} alt="A picture of myself" className="profilePic"></img>
+                            <img src={picture} alt="Me hiking" className="profilePic"></img>
                         </div>  
                     </div>
                     </Fade>
@@ -48,10 +48,11 @@ const Home = () => {
                             </div>
                         </div>
                         <ul className="listExp">
-                            <li className="elementExp">Developed software in Java for a large-scale Manufacturing Execution System</li>
-                            <li className="elementExp">Designed and implemented user interfaces among other features to be used by engineers daily</li>
-                            <li className="elementExp">Created and manipulated SQL stored procedures for database interaction</li>
-                            <li className="elementExp">Collaborated via DevOps in a small development team of software engineers to produce efficient code</li>
+                            <li className="elementExp">Developed a large-scale Manufacturing Execution System to be used by hundreds of engineers daily</li>
+                            <li className="elementExp">Designed and implemented user interfaces for the web app in the Java Vaadin framework</li>
+                            <li className="elementExp">Demonstrated efficient Object Oriented Programming principles in developing the back end in Java</li>
+                            <li className="elementExp">Created and manipulated stored procedures for SQL Server database manipulation and interaction</li>
+                            <li className="elementExp">Collaborated via Azure DevOps in an agile environment of a small team of developers</li>
                         </ul>
                     </div>
                     <hr className="hrExp"></hr>
