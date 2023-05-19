@@ -97,7 +97,7 @@ const Home = () => {
                             </p>
                             <div style={{padding: "min(3vh, 2vw)", paddingTop: "0", display: "flex", justifyContent: "space-evenly"}}>
                                 <img src={rugby} alt="Rugby lineout!" style={{borderRadius: "10%", marginLeft: "0vw", marginRight: "2vw", height: "min(30vw, 30vh)", width: "min(30vw, 30vh)", boxShadow: "0.1vw 0.1vw 8px black"}}></img>
-                                <img src={meandbird} alt="Ontop a mountain holding a bird" style={{borderRadius: "10%", marginLeft: "0vw", marginRight: "2vw", objectFit: "cover", height: "min(30vw, 30vh)", width: "min(30vw, 30vh)", objectPosition: "0 80%", boxShadow: "0.1vw 0.1vw 8px black"}}></img>
+                                <img src={meandbird} alt="Ontop a mountain holding a bird" style={{borderRadius: "10%", marginLeft: "0vw", marginRight: "0vw", objectFit: "cover", height: "min(30vw, 30vh)", width: "min(30vw, 30vh)", objectPosition: "0 80%", boxShadow: "0.1vw 0.1vw 8px black"}}></img>
                             </div>
                         </div>
                     </div>
