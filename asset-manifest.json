@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skim-site/static/css/main.d6c86ae5.css",
-    "main.js": "/skim-site/static/js/main.f5f5dcde.js",
+    "main.css": "/skim-site/static/css/main.2f6a00ee.css",
+    "main.js": "/skim-site/static/js/main.a3b19376.js",
     "static/media/horse.png": "/skim-site/static/media/horse.3e40895a820541d1533f.png",
     "static/media/me.JPG": "/skim-site/static/media/me.b6c2366fbe83f67acfe8.JPG",
     "static/media/meandbird.jpg": "/skim-site/static/media/meandbird.952aa0cbb6227dc58db6.jpg",
@@ -10,11 +10,11 @@
     "static/media/yolo.png": "/skim-site/static/media/yolo.c0abcadab08fc1cd33b5.png",
     "static/media/java.png": "/skim-site/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "index.html": "/skim-site/index.html",
-    "main.d6c86ae5.css.map": "/skim-site/static/css/main.d6c86ae5.css.map",
-    "main.f5f5dcde.js.map": "/skim-site/static/js/main.f5f5dcde.js.map"
+    "main.2f6a00ee.css.map": "/skim-site/static/css/main.2f6a00ee.css.map",
+    "main.a3b19376.js.map": "/skim-site/static/js/main.a3b19376.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6c86ae5.css",
-    "static/js/main.f5f5dcde.js"
+    "static/css/main.2f6a00ee.css",
+    "static/js/main.a3b19376.js"
   ]
 }
