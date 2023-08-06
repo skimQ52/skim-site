@@ -11,7 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
-  background-color: rgb(16, 12, 12);
+  background-color: rgb(12, 12, 12);
 }
 
 code {
@@ -311,6 +311,101 @@ a.social:hover {
   top: 50%;
   transform: translateY(-50%);
   left: min(3.5vh, 2.5vw);
+}
+
+/* projects */
+
+.Projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 5vh;
+  user-select: none;
+}
+
+.itemProjects {
+  border-radius: min(2vh, 3vw);
+  margin: min(5vh, 4vw) min(5vh, 4vw);
+  height: min(52vh, 52vw);
+  width: 40%;
+  background-color: rgba(119, 119, 119, 0.205);
+  -webkit-font-smoothing: antialiased !important;
+  position: relative;
+}
+
+.itemProjects:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: rgba(110, 110, 110, 0.418);
+}
+
+.ghostProjects {
+  border-radius: min(5vh, 6vw);
+  margin: min(5vh, 4vw) min(5vh, 4vw);
+  height: min(50vh, 50vw);
+  width: 40%;
+  -webkit-font-smoothing: antialiased !important;
+  position: relative;
+}
+
+.blockProjects {
+  display: flex;
+  flex-flow: row wrap;
+  margin: min(3.5vh, 2.5vw);
+}
+
+.picProjects {
+  border-radius: 5%;
+  width: 70%;
+  margin: auto;
+  margin-left: 4%;
+  margin-top: 2%;
+  display: block;
+}
+
+.headerProjects {
+  margin-left: min(2vw, 2vh);
+  margin-bottom: min(0.8vw, 0.8vh);
+  text-align: left;
+  color: rgb(226, 163, 255) !important;
+  font-family: 'Lato';
+  font-size: min(5vw, 5vh);
+}
+
+.subheaderProjects {
+  margin-left: min(2vw, 2vh);
+  text-align: left;
+  color: rgb(153, 153, 153) !important;
+  font-family: 'Lato', 'Abel';
+  font-size: min(2.5vw, 2.5vh);
+}
+
+.subsubheaderProjects {
+  margin-left: min(2vw, 2vh);
+  text-align: left;
+  color: rgb(209, 209, 209) !important;
+  font-family: 'Lato', 'Abel';
+  font-size: min(2.5vw, 2.5vh);
+}
+
+.columnProjects {
+  display: flex;
+  width:  20%;
+  flex-flow: column wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-right: 2%;
+  margin-left: 3%;
+}
+
+.linkProjects {
+  position: absolute;
+  right: 5%;
+  bottom: 2%;
+  color: rgb(153, 153, 153) !important;
+  font-family: 'Lato', 'Abel';
+  font-size: min(2vw, 2vh);
+  font-style: italic;
 }
 
 /* Machine vision COOP PAGE */

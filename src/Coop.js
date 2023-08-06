@@ -37,7 +37,7 @@ const Coop = () => {
                     <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
                     <div>
                         <h2 className="headerExp">Brock Solutions</h2>
-                        <h2 className="subheaderExp">Software Developer Co-op| Work Term 2</h2>
+                        <h2 className="subheaderExp">Software Developer | Work Term 2</h2>
                     </div>
                 </div>
             </div>

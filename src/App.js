@@ -1,6 +1,7 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
+import Projects from './Projects';
 import Coop from './Coop';
 import Machine from './Machine';
 import Brock from './Brock';
@@ -27,6 +28,7 @@ function App() {
             <div className="content">
                 <Routes>
                     <Route path="/skim-site" element={<Home/>}/>
+                    <Route path="/projects" element={<Projects/>}/>   
                     <Route path="/coop/machine" element={<Machine/>}/>
                     <Route path="/coop/brock" element={<Brock/>}/>
                     <Route path="/coop" element={<Coop/>}/>     

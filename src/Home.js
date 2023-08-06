@@ -44,7 +44,7 @@ const Home = () => {
                             <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
                             <div>
                                 <h2 className="headerExp">Brock Solutions</h2>
-                                <h2 className="subheaderExp">Software Developer (CO-OP) | September - December 2022</h2> 
+                                <h2 className="subheaderExp">Software Developer | September - December 2022</h2> 
                             </div>
                         </div>
                         <ul className="listExp">

@@ -1,4 +1,4 @@
-// https://javascript.plainenglish.io/animated-text-gradients-with-react-and-styled-components-93891797eaf1
+// Credits: https://javascript.plainenglish.io/animated-text-gradients-with-react-and-styled-components-93891797eaf1
 
 import React from "react";
 import styled from "styled-components";
