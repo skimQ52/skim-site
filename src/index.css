@@ -411,6 +411,10 @@ a.social:hover {
 
 /* mobile changes*/
 @media only screen and (max-width: 1500px) {
+  .Projects {
+    margin-top: 15%;
+  }
+
   .itemProjects {
     width: 80%;
     height: 52vw;
