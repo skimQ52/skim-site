@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollToTop from './ScrollToTop'
 import Bounce from 'react-reveal/Bounce';
 import { useNavigate } from 'react-router-dom';
 import uoguelph from "./uoguelph.jpg";
@@ -17,6 +18,8 @@ const Coop = () => {
     return (
         <Bounce left cascade>
         <div className="Coop">
+            <ScrollToTop />
+            
             <div>
                 <h1 className="header">Work Term Reports</h1>
                 <hr className="hrCoop"></hr> 

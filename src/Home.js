@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollToTop from './ScrollToTop'
 import picture from "./me.JPG";
 import meandbird from "./meandbird.jpg";
 import brock from "./brock.jpg";
@@ -8,9 +9,11 @@ import TextLoop from "react-text-loop";
 import HeaderText from "./HeaderText";
 import Fade from 'react-reveal/Fade';
 
+
 const Home = () => {
     return ( 
         <div>
+            <ScrollToTop />
             <div className="Home">
                 <div className="NameContainer">
                     <Fade top>
