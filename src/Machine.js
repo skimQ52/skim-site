@@ -5,7 +5,7 @@ import React from "react";
 
 const Machine = () => {
     return ( 
-        <div className="Machine">
+        <div className="CoopPage">
             <h1 className="header">Summer 2022 | University of Guelph</h1>
             <h2 className="subheader">Machine Vision and Robotics Reasearch Assistant</h2>
 

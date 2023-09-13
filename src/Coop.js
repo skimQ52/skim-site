@@ -15,6 +15,9 @@ const Coop = () => {
     const goBrock = (e) => {
         navigate('/coop/brock', { replace: true })
     }
+    const goBrock2 = (e) => {
+        navigate('/coop/brock2', { replace: true })
+    }
     return (
         <Bounce left cascade>
         <div className="Coop">
@@ -40,7 +43,17 @@ const Coop = () => {
                     <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
                     <div>
                         <h2 className="headerExp">Brock Solutions</h2>
-                        <h2 className="subheaderExp">Software Developer | Work Term 2</h2>
+                        <h2 className="subheaderExp">Software Developer (MG) | Work Term 2</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" onClick={goBrock2}>
+                <div className="blockCoop">
+                    <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
+                    <div>
+                        <h2 className="headerExp">Brock Solutions</h2>
+                        <h2 className="subheaderExp">Software Developer (TL) | Work Term 3</h2>
                     </div>
                 </div>
             </div>

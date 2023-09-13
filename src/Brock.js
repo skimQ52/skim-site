@@ -1,11 +1,11 @@
 import javaPic from "./java.png"
 import React from "react";
 
-const Machine = () => {
+const Brock = () => {
     return ( 
-        <div className="Machine">
+        <div className="CoopPage">
             <h1 className="header">Fall 2022 | Brock Solutions</h1>
-            <h2 className="subheader">Software Developer Co-op</h2>
+            <h2 className="subheader">Software Developer Co-op (MG)</h2>
 
             <div className="chunk">
                 <div className="block">
@@ -177,4 +177,4 @@ const Machine = () => {
      );
 }
  
-export default Machine;
+export default Brock;
