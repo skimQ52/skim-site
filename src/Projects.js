@@ -31,7 +31,7 @@ const Projects = () => {
             {/* SKIMAGE PROCESSOR */}
             <Fade right>
                 <div className="itemProjects">
-                    <ProjectItem title="The 'skImage' Processor" desc="An Image Processing Toolbox capable of performing an array operations under various interpolations."
+                    <ProjectItem title="The 'skImage' Processor" desc="An Image Processing Toolbox capable of performing an array of operations under various interpolations."
                         list={listSkimage} pic={skimageMenu} link="https://github.com/skimQ52/skImage-processor" linkText={linkGithub}></ProjectItem>
                 </div>
             </Fade>
@@ -46,18 +46,18 @@ const Projects = () => {
 
             {/* SHELLQ */}
             <Fade right>
-            <div className="itemProjects">
-                <ProjectItem title="shellQ" desc="A command-line Unix shell which can access and manipulate the operating system's services, mimicing the notorious 'Bash'."
-                    list={listShellQ} pic={shellQ} link="https://github.com/skimQ52/shellQ" linkText={linkGithub}></ProjectItem>
-            </div>
+                <div className="itemProjects">
+                    <ProjectItem title="shellQ" desc="A command-line Unix shell which can access and manipulate the operating system's services, mimicing the notorious 'Bash'."
+                        list={listShellQ} pic={shellQ} link="https://github.com/skimQ52/shellQ" linkText={linkGithub}></ProjectItem>
+                </div>
             </Fade>
 
             {/* BONEMAN STAN */}
             <Fade left>
-            <div className="itemProjects">
-                <ProjectItem title="Boneman Stan" desc="A handheld Arduino game console that pairs a 16x2 LED module with a joystick to play the platformer game 'Boneman Stan'."
-                    list={listBoneman} pic={boneman}></ProjectItem>
-            </div>
+                <div className="itemProjects">
+                    <ProjectItem title="Boneman Stan" desc="A handheld Arduino game console that pairs a 16x2 LED module with a joystick to play the platformer game 'Boneman Stan'."
+                        list={listBoneman} pic={boneman}></ProjectItem>
+                </div>
             </Fade>
 
             <div className="ghostProjects"></div>

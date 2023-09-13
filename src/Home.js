@@ -42,39 +42,56 @@ const Home = () => {
                     </div>
                     </Fade>
                     <Fade left>
-                    <div className="chunkExp">
-                        <div className="blockExp">
-                            <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
-                            <div>
-                                <h2 className="headerExp">Brock Solutions</h2>
-                                <h2 className="subheaderExp">Software Developer | September - December 2022</h2> 
+                        <div className="chunkExp">
+                            <div className="blockExp">
+                                <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
+                                <div>
+                                    <h2 className="headerExp">Brock Solutions</h2>
+                                    <h2 className="subheaderExp">Software Developer | May - August 2023</h2> 
+                                </div>
                             </div>
+                            <ul className="listExp">
+                                <li className="elementExp">Spearheaded the development and configuration of software for the Austin-Bergstrom International Airport</li>
+                                <li className="elementExp">As the sole developer, implemented a Baggage Handling System Map, enabling the real-time display and simulation of 10,000 to 12,000 bags daily</li>
+                                <li className="elementExp">Performed Integrated Testing to ensure all pieces of the large project were functional</li>
+                                <li className="elementExp">Created and populated databases using SQL Server Management Studio</li>
+                            </ul>
                         </div>
-                        <ul className="listExp">
-                            <li className="elementExp">Developed a large-scale Manufacturing Execution System to be used by hundreds of engineers daily</li>
-                            <li className="elementExp">Designed and implemented user interfaces for the web app in the Java Vaadin framework</li>
-                            <li className="elementExp">Demonstrated efficient Object Oriented Programming principles in developing the back end in Java</li>
-                            <li className="elementExp">Created and manipulated stored procedures for SQL Server database manipulation and interaction</li>
-                            <li className="elementExp">Collaborated via Azure DevOps in an agile environment of a small team of developers</li>
-                        </ul>
-                    </div>
-                    <hr className="hrExp"></hr>
+                        <hr className="hrExp"></hr>
 
-                    <div className="chunkExp">
-                        <div className="blockExp">
-                            <img src={uoguelph} alt="University of Guelph Logo" className="logoExp"></img>
-                            <div>
-                                <h2 className="headerExp">University of Guelph</h2>
-                                <h2 className="subheaderExp">Machine Vision and Robotics Research Assistant | May - August 2022</h2>
+                        <div className="chunkExp">
+                            <div className="blockExp">
+                                <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
+                                <div>
+                                    <h2 className="headerExp">Brock Solutions</h2>
+                                    <h2 className="subheaderExp">Software Developer | September - December 2022</h2> 
+                                </div>
                             </div>
+                            <ul className="listExp">
+                                <li className="elementExp">Implemented vital features in Java Vaadin for a Manufacturing Execution System to be used by hundreds of engineers daily</li>
+                                <li className="elementExp">Demonstrated efficient Object Oriented Programming principles resulting in faster loading and query times</li>
+                                <li className="elementExp">Created and manipulated stored procedures for the large database with SQL Server Management Studio</li>
+                                <li className="elementExp">Performed Unit Testing of my own and others code to ensure flawless functionality</li>
+                                <li className="elementExp">Collaborated via Azure DevOps (TFS) in an agile environment of a small team of developers</li>
+                            </ul>
                         </div>
-                        <ul className="listExp">
-                            <li className="elementExp">Implemented and evaluated various Machine Learning Object Detection libraries for use in several masters thesis projects</li>
-                            <li className="elementExp">Developed an array of Python scripts which interacted with the models under different contexts</li>
-                            <li className="elementExp">Assisted masters students in employing different Object Detection libraries into their projects</li>
-                            <li className="elementExp">Created tutorial-like documentation paired with GitLab repositories for future use in the lab</li>
-                        </ul>
-                    </div>
+                        <hr className="hrExp"></hr>
+
+                        <div className="chunkExp">
+                            <div className="blockExp">
+                                <img src={uoguelph} alt="University of Guelph Logo" className="logoExp"></img>
+                                <div>
+                                    <h2 className="headerExp">University of Guelph</h2>
+                                    <h2 className="subheaderExp">Machine Vision and Robotics Research Assistant | May - August 2022</h2>
+                                </div>
+                            </div>
+                            <ul className="listExp">
+                                <li className="elementExp">Trained Machine Learning Object Detection models to be employed in 3 different Master thesis projects</li>
+                                <li className="elementExp">Evaluated several Object Detection libraries, such as YOLOv5, YOLACT, Detectron2 and Single-Shot Detector</li>
+                                <li className="elementExp">Developed an array of Python scripts to manipulate datasets and ensure compatibility with models</li>
+                                <li className="elementExp">Created tutorial documentation paired with GitLab repositories to easily get models up and running on custom datasets</li>
+                            </ul>
+                        </div>
                     </Fade>
                 </div>
                 
