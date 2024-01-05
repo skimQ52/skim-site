@@ -3,6 +3,7 @@ import ScrollToTop from './ScrollToTop'
 import picture from "./me.JPG";
 import meandbird from "./meandbird.jpg";
 import brock from "./brock.jpg";
+import vehikl from "./vehikl.png";
 import rugby from "./rugby.JPG";
 import uoguelph from "./uoguelph.jpg";
 import TextLoop from "react-text-loop"; 
@@ -42,6 +43,17 @@ const Home = () => {
                     </div>
                     </Fade>
                     <Fade left>
+                        <div className="chunkExp">
+                            <div className="blockExp">
+                                <img src={vehikl} alt="Vehikl Logo" className="logoExp"></img>
+                                <div>
+                                    <h2 className="headerExp">Vehikl | <i>Current Position</i></h2>
+                                    <h2 className="subheaderExp">Software Developer</h2> 
+                                </div>
+                            </div>
+                        </div>
+                        <hr className="hrExp"></hr>
+
                         <div className="chunkExp">
                             <div className="blockExp">
                                 <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
@@ -106,7 +118,7 @@ const Home = () => {
                     <div className="chunkAbout">
                         <div className="blockAbout">
                             <p className="textAbout">
-                                <span style={{fontSize: "min(4.5vh, 6vw)", lineHeight: "0.01", color: "white"}}>Hi there!</span> I'm a third year Computer Science student studying at the University of Guelph.
+                                <span style={{fontSize: "min(4.5vh, 6vw)", lineHeight: "0.01", color: "white"}}>Hi there!</span> I'm a fourth year Computer Science student studying at the University of Guelph.
                                 Aside from programming, I love to spend time outside, as well as hone my skills in various 
                                 sports like skateboarding. I have also played basketball, hockey and even wrestled for some time.
                                 Equipped with a big smile and a positive mindset, I am a natural born leader.
