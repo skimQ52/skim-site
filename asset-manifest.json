@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skim-site/static/css/main.d08d375f.css",
-    "main.js": "/skim-site/static/js/main.89148a1e.js",
+    "main.js": "/skim-site/static/js/main.636bab69.js",
     "static/media/boneman.jpg": "/skim-site/static/media/boneman.7bb1dedc9ee224288b7d.jpg",
     "static/media/horse.png": "/skim-site/static/media/horse.3e40895a820541d1533f.png",
     "static/media/me.JPG": "/skim-site/static/media/me.b6c2366fbe83f67acfe8.JPG",
@@ -10,6 +10,7 @@
     "static/media/rugby.JPG": "/skim-site/static/media/rugby.f3829c86d701893d104e.JPG",
     "static/media/austinAirport.jpg": "/skim-site/static/media/austinAirport.268d43c41bb396cfe089.jpg",
     "static/media/skimageMenu.png": "/skim-site/static/media/skimageMenu.ff58f708493f6d4c5ec1.png",
+    "static/media/svg.png": "/skim-site/static/media/svg.a0695d41984034766773.png",
     "static/media/uoguelph.jpg": "/skim-site/static/media/uoguelph.488ac90e7154491fd719.jpg",
     "static/media/yolo.png": "/skim-site/static/media/yolo.c0abcadab08fc1cd33b5.png",
     "static/media/vehikl.png": "/skim-site/static/media/vehikl.354e5815101d3afdd138.png",
@@ -17,10 +18,10 @@
     "static/media/shellQ.png": "/skim-site/static/media/shellQ.8d2c5b3e69602a082c9d.png",
     "index.html": "/skim-site/index.html",
     "main.d08d375f.css.map": "/skim-site/static/css/main.d08d375f.css.map",
-    "main.89148a1e.js.map": "/skim-site/static/js/main.89148a1e.js.map"
+    "main.636bab69.js.map": "/skim-site/static/js/main.636bab69.js.map"
   },
   "entrypoints": [
     "static/css/main.d08d375f.css",
-    "static/js/main.89148a1e.js"
+    "static/js/main.636bab69.js"
   ]
 }
