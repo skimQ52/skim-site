@@ -1,5 +1,6 @@
-import javaPic from "./java.png"
 import React from "react";
+
+import javaPic from "./imgs/java.png"
 
 const Brock = () => {
     return ( 

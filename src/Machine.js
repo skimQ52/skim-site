@@ -1,7 +1,8 @@
-import roboticsPic from "./robotics_institute_logo.png"
-import yoloPic from "./yolo.png"
-import horsePic from "./horse.png"
 import React from "react";
+
+import roboticsPic from "./imgs/robotics_institute_logo.png"
+import yoloPic from "./imgs/yolo.png"
+import horsePic from "./imgs/horse.png"
 
 const Machine = () => {
     return ( 

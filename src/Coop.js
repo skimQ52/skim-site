@@ -1,9 +1,11 @@
 import React from "react";
-import ScrollToTop from './ScrollToTop'
-import Bounce from 'react-reveal/Bounce';
 import { useNavigate } from 'react-router-dom';
-import uoguelph from "./uoguelph.jpg";
-import brock from "./brock.jpg";
+import Bounce from 'react-reveal/Bounce';
+
+import ScrollToTop from './components/ScrollToTop'
+
+import uoguelph from "./imgs/uoguelph.jpg";
+import brock from "./imgs/brock.jpg";
 
 const Coop = () => {
 

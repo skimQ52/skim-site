@@ -1,11 +1,14 @@
 import React from "react";
-import ScrollToTop from './ScrollToTop'
 import Fade from 'react-reveal/Fade';
-import FridgeWise from "./FridgeWise.png";
-import skimageMenu from "./skimageMenu.png";
-import shellQ from "./shellQ.png";
-import boneman from "./boneman.jpg";
-import ProjectItem from "./ProjectItem";
+
+import ScrollToTop from './components/ScrollToTop'
+import ProjectItem from "./components/ProjectItem";
+
+import FridgeWise from "./imgs/FridgeWise.png";
+import skimageMenu from "./imgs/skimageMenu.png";
+import shellQ from "./imgs/shellQ.png";
+import boneman from "./imgs/boneman.jpg";
+import svg from "./imgs/svg.png";
 
 const Projects = () => {
 
@@ -40,7 +43,7 @@ const Projects = () => {
             <Fade left>
                 <div className="itemProjects">
                     <ProjectItem title="SVG Parser" desc="A full-stack web application built to parse, display and edit existing Scalable Vector Graphics files."
-                        list={listSVG} pic={boneman} link="https://github.com/skimQ52/SVGParser" linkText={linkGithub}></ProjectItem>
+                        list={listSVG} pic={svg} link="https://github.com/skimQ52/SVGParser" linkText={linkGithub}></ProjectItem>
                 </div>
             </Fade>
 

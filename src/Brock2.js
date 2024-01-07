@@ -1,6 +1,7 @@
-import smartSuiteLogo from "./SmartSuite-Logo.png"
-import austinAirport from "./austinAirport.jpg"
 import React from "react";
+
+import smartSuiteLogo from "./imgs/SmartSuite-Logo.png"
+import austinAirport from "./imgs/austinAirport.jpg"
 
 const Brock2 = () => {
     return ( 

@@ -1,14 +1,16 @@
 import React from "react";
-import ScrollToTop from './ScrollToTop'
-import picture from "./me.JPG";
-import meandbird from "./meandbird.jpg";
-import brock from "./brock.jpg";
-import vehikl from "./vehikl.png";
-import rugby from "./rugby.JPG";
-import uoguelph from "./uoguelph.jpg";
-import TextLoop from "react-text-loop"; 
-import HeaderText from "./HeaderText";
 import Fade from 'react-reveal/Fade';
+import TextLoop from "react-text-loop"; 
+
+import ScrollToTop from './components/ScrollToTop'
+import HeaderText from "./components/HeaderText";
+
+import picture from "./imgs/me.JPG";
+import meandbird from "./imgs/meandbird.jpg";
+import brock from "./imgs/brock.jpg";
+import vehikl from "./imgs/vehikl.png";
+import rugby from "./imgs/rugby.JPG";
+import uoguelph from "./imgs/uoguelph.jpg";
 
 
 const Home = () => {
