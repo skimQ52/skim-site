@@ -19,6 +19,25 @@ code {
     monospace;
 }
 
+.rainbow {
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hue 10s infinite linear;
+  font-feature-settings: "kern";
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes hue {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  100% {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
 .background {
   position: fixed;
   top: 0;
@@ -217,7 +236,6 @@ a.social:hover {
 
 .titleHeader {
   text-align: left;
-  color: rgb(255, 255, 255) !important;
   font-family: 'Lato';
   font-size: min(9vw, 6vh);
   padding-right: min(1vh, 0.6vw);
@@ -225,14 +243,6 @@ a.social:hover {
   border-bottom: min(0.4vh, 0.4vw) solid rgb(100, 100, 100);
   border-right: min(0.4vh, 0.4vw) solid rgb(100, 100, 100);
   border-radius: 0 0 min(3vh, 3vw) 0;
-}
-
-.headerExp {
-  margin-left: 2vh;
-  text-align: left;
-  color: white !important;
-  font-family: 'Abel', 'Lato';
-  font-size: min(5vw, 5vh);
 }
 
 .subheaderExp {
@@ -494,3 +504,89 @@ a.social:hover {
   margin-top: 5vh;
 }
 
+
+
+/* JOBS */
+
+.Job {
+  width: 80%;
+  margin: 25px 0;
+}
+
+.job-content {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px rgba(7, 7, 7, 0.438);
+  z-index: 2;
+  user-select: none;
+}
+
+.jobHeader {
+  display: flex;
+  flex-flow: column;
+  align-items: left;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.jobFlyoutIcon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 30px;
+  color: rgb(230, 230, 230) !important;
+}
+
+.jobFlyoutIcon :hover {
+  cursor: pointer;
+  color: rgb(226, 163, 255) !important;
+}
+
+.jobTitle {
+  text-align: left;
+  color: rgb(226, 163, 255) !important;
+  font-family:'Lato';
+  font-weight: bold;
+  font-size: min(3.5vw, 3.5vh);
+}
+
+.jobCompany{
+  text-align: left;
+  color: rgb(160, 160, 160) !important;
+  font-family:'Abel';
+  font-style: italic;
+  font-size: min(3.2vw, 3.2vh);
+}
+
+.jobDate {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: min(2.5vw, 2.5vh);
+  color: white !important;
+  color: rgb(146, 146, 146) !important;
+  font-family: 'Anek Telugu';
+}
+
+.jobFlyout {
+  background-color: rgba(59, 59, 59, 0.322);
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+  margin-left: 30px;
+  box-shadow: 0px 5px 5px rgba(7, 7, 7, 0.418);
+  z-index: 1;
+}
+
+.jobDetailsText {
+  color: rgb(230, 230, 230) !important;
+  font-family: 'Anek Telugu';
+  font-size: min(2.2vw, 2.2vh);
+}

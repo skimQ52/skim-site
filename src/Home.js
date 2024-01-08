@@ -4,6 +4,7 @@ import TextLoop from "react-text-loop";
 
 import ScrollToTop from './components/ScrollToTop'
 import HeaderText from "./components/HeaderText";
+import Jobs from "./components/Jobs";
 
 import picture from "./imgs/me.JPG";
 import meandbird from "./imgs/meandbird.jpg";
@@ -41,79 +42,16 @@ const Home = () => {
                 <div className="Exp">
                     <Fade left>
                     <div className="headerBox">
-                        <h1 className="titleHeader">Experience</h1>
+                        <h1 className="titleHeader rainbow">Experience</h1>
                     </div>
                     </Fade>
-                    <Fade left>
-                        <div className="chunkExp">
-                            <div className="blockExp">
-                                <img src={vehikl} alt="Vehikl Logo" className="logoExp"></img>
-                                <div>
-                                    <h2 className="headerExp">Vehikl | <i>Current Position</i></h2>
-                                    <h2 className="subheaderExp">Software Developer</h2> 
-                                </div>
-                            </div>
-                        </div>
-                        <hr className="hrExp"></hr>
-
-                        <div className="chunkExp">
-                            <div className="blockExp">
-                                <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
-                                <div>
-                                    <h2 className="headerExp">Brock Solutions</h2>
-                                    <h2 className="subheaderExp">Software Developer | May - August 2023</h2> 
-                                </div>
-                            </div>
-                            <ul className="listExp">
-                                <li className="elementExp">Spearheaded the development and configuration of software for the Austin-Bergstrom International Airport</li>
-                                <li className="elementExp">As the sole developer, implemented a Baggage Handling System Map, enabling the real-time display and simulation of 10,000 to 12,000 bags daily</li>
-                                <li className="elementExp">Performed Integrated Testing to ensure all pieces of the large project were functional</li>
-                                <li className="elementExp">Created and populated databases using SQL Server Management Studio</li>
-                            </ul>
-                        </div>
-                        <hr className="hrExp"></hr>
-
-                        <div className="chunkExp">
-                            <div className="blockExp">
-                                <img src={brock} alt="Brock Solutions Logo" className="logoExp"></img>
-                                <div>
-                                    <h2 className="headerExp">Brock Solutions</h2>
-                                    <h2 className="subheaderExp">Software Developer | September - December 2022</h2> 
-                                </div>
-                            </div>
-                            <ul className="listExp">
-                                <li className="elementExp">Implemented vital features in Java Vaadin for a Manufacturing Execution System to be used by hundreds of engineers daily</li>
-                                <li className="elementExp">Demonstrated efficient Object Oriented Programming principles resulting in faster loading and query times</li>
-                                <li className="elementExp">Created and manipulated stored procedures for the large database with SQL Server Management Studio</li>
-                                <li className="elementExp">Performed Unit Testing of my own and others code to ensure flawless functionality</li>
-                                <li className="elementExp">Collaborated via Azure DevOps (TFS) in an agile environment of a small team of developers</li>
-                            </ul>
-                        </div>
-                        <hr className="hrExp"></hr>
-
-                        <div className="chunkExp">
-                            <div className="blockExp">
-                                <img src={uoguelph} alt="University of Guelph Logo" className="logoExp"></img>
-                                <div>
-                                    <h2 className="headerExp">University of Guelph</h2>
-                                    <h2 className="subheaderExp">Machine Vision and Robotics Research Assistant | May - August 2022</h2>
-                                </div>
-                            </div>
-                            <ul className="listExp">
-                                <li className="elementExp">Trained Machine Learning Object Detection models to be employed in 3 different Master thesis projects</li>
-                                <li className="elementExp">Evaluated several Object Detection libraries, such as YOLOv5, YOLACT, Detectron2 and Single-Shot Detector</li>
-                                <li className="elementExp">Developed an array of Python scripts to manipulate datasets and ensure compatibility with models</li>
-                                <li className="elementExp">Created tutorial documentation paired with GitLab repositories to easily get models up and running on custom datasets</li>
-                            </ul>
-                        </div>
-                    </Fade>
+                    <Jobs/>
                 </div>
                 
                 <div className="About">
-
                     <div className="headerBox">
                         <Fade left>
-                        <h1 className="titleHeader">About Me</h1>
+                        <h1 className="titleHeader rainbow">About Me</h1>
                         </Fade>
                     </div>
                     <Fade left>
