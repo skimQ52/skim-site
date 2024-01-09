@@ -4,14 +4,10 @@ import TextLoop from "react-text-loop";
 
 import ScrollToTop from './components/ScrollToTop'
 import HeaderText from "./components/HeaderText";
-import Jobs from "./components/Jobs";
 
 import picture from "./imgs/me.JPG";
 import meandbird from "./imgs/meandbird.jpg";
-import brock from "./imgs/brock.jpg";
-import vehikl from "./imgs/vehikl.png";
 import rugby from "./imgs/rugby.JPG";
-import uoguelph from "./imgs/uoguelph.jpg";
 
 
 const Home = () => {
@@ -39,14 +35,13 @@ const Home = () => {
                     </Fade>
                 </div>
                 
-                <div className="Exp">
+                {/* <div className="Exp">
                     <Fade left>
                     <div className="headerBox">
                         <h1 className="titleHeader rainbow">Experience</h1>
                     </div>
                     </Fade>
-                    <Jobs/>
-                </div>
+                </div> */}
                 
                 <div className="About">
                     <div className="headerBox">

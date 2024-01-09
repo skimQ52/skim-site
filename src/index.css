@@ -19,6 +19,13 @@ code {
     monospace;
 }
 
+.pageheader {
+  font-family: 'Lato';
+  font-weight: bolder;
+  font-size: min(6vh, 8vw);
+  text-align: left;
+}
+
 .rainbow {
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   background-clip: text;
@@ -194,27 +201,10 @@ a.social:hover {
   padding-bottom: 50px;
 }
 
-.hrExp {
-  margin: min(6vh, 6vw) 0vh;
-  width: 90%;
-}
-
 .logoExp {
   width: min(15vh, 15vw);
   height: min(15vh, 15vw);
   border-radius: 8%;
-}
-
-.blockExp {
-  display: flex;
-  flex-flow: row;
-  position: relative;
-}
-
-.chunkExp {
-  display: flex;
-  flex-flow: column;
-  position: relative;
 }
 
 .listExp {
@@ -328,17 +318,24 @@ a.social:hover {
 
 .Projects {
   display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 5%;
+  width: 100%
+}
+
+.projects-container {
+  display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-top: 3%;
   user-select: none;
 }
 
 .itemProjects {
   border-radius: 3%;
-  margin: 2%;
+  margin: 1%;
   height: 26vw;
-  width: 40%;
+  width: 48%;
   background-color: rgba(119, 119, 119, 0.205);
   -webkit-font-smoothing: antialiased !important;
   overflow: hidden;
@@ -352,9 +349,9 @@ a.social:hover {
 
 .ghostProjects {
   border-radius: min(5vh, 6vw);
-  margin: min(5vh, 4vw) min(5vh, 4vw);
-  height: min(50vh, 50vw);
-  width: 40%;
+  margin: 1%;
+  height: 26vw;
+  width: 48%;
   -webkit-font-smoothing: antialiased !important;
   position: relative;
 }
@@ -418,26 +415,6 @@ a.social:hover {
   font-family: 'Lato', 'Abel';
   font-size: min(2vw, 2vh);
   font-style: italic;
-}
-
-/* mobile changes*/
-@media only screen and (max-width: 1500px) {
-  .Projects {
-    margin-top: 15%;
-  }
-
-  .itemProjects {
-    width: 80%;
-    height: 52vw;
-  }
-}
-
-/* widescreen changes */
-@media only screen and (min-width: 2000px) {
-  .itemProjects {
-    width: 20%;
-    height: 13vw;
-  }
 }
 
 /* Machine vision COOP PAGE */
@@ -508,8 +485,27 @@ a.social:hover {
 
 /* JOBS */
 
-.Job {
+.Jobs {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.inner-container {
   width: 80%;
+}
+
+.jobs-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+}
+
+.Job {
+  width: 100%;
   margin: 25px 0;
 }
 
@@ -517,13 +513,26 @@ a.social:hover {
   position: relative;
   display: flex;
   flex-flow: row nowrap;
-  width: 100%;
-  background-color: rgb(37, 37, 37);
+  background: linear-gradient(-45deg, #1b1b1b, #2b2b2b, #353535, #3b3b3b);
+	background-size: 400% 400%;
+	animation: blockgradient 20s ease infinite;
   padding: 15px;
   border-radius: 15px;
   box-shadow: 0px 5px 5px rgba(7, 7, 7, 0.438);
   z-index: 2;
   user-select: none;
+}
+
+@keyframes blockgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .jobHeader {
@@ -568,7 +577,7 @@ a.social:hover {
 
 .jobDate {
   position: absolute;
-  top: 15px;
+  top: 10px;
   right: 15px;
   font-size: min(2.5vw, 2.5vh);
   color: white !important;
@@ -583,10 +592,50 @@ a.social:hover {
   margin-left: 30px;
   box-shadow: 0px 5px 5px rgba(7, 7, 7, 0.418);
   z-index: 1;
+  overflow: hidden;
 }
 
 .jobDetailsText {
   color: rgb(230, 230, 230) !important;
   font-family: 'Anek Telugu';
   font-size: min(2.2vw, 2.2vh);
+}
+
+/* mobile changes*/
+@media only screen and (max-width: 1500px) {
+  .Projects {
+    margin-top: 15%;
+  }
+
+  .itemProjects {
+    width: 100%;
+    margin: 2% 0;
+    height: 52vw;
+  }
+
+  .inner-container {
+    width: 90%;
+  }
+
+  .Jobs {
+    margin-top: 15%;
+  }
+
+  .Job {
+    /* width: 100%; */
+    margin: 3% 0;
+  }
+
+  .job-content {
+    padding: 3%;
+  }
+
+}
+
+/* widescreen changes */
+@media only screen and (min-width: 2000px) {
+  .itemProjects {
+    width: 20%;
+    height: 13vw;
+  }
 }

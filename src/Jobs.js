@@ -1,10 +1,12 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
 
-import Job from './Job';
+import ScrollToTop from './components/ScrollToTop'
+import Job from './components/Job';
 
-import brock from "../imgs/brock.jpg";
-import uoguelph from "../imgs/uoguelph.jpg";
-import vehikl from "../imgs/vehikl.png";
+import brock from "./imgs/brock.jpg";
+import uoguelph from "./imgs/uoguelph.jpg";
+import vehikl from "./imgs/vehikl.png";
 
 const Jobs = () => {
 
@@ -36,10 +38,18 @@ const Jobs = () => {
 
     return (
         <div className="Jobs">
-            <Job jobTitle= "Software Developer Co-op" company="Vehikl - Current Position" img={vehikl} startDate="Jan" endDate="August 2024" details={vehiklDetails}></Job>
-            <Job jobTitle= "Software Developer Co-op" company="Brock Solutions (Transportation & Logistics)" img={brock} startDate="May" endDate="August 2023" details={brockDetails}></Job>
-            <Job jobTitle= "Software Developer Co-op" company="Brock Solutions (Manufacturing)" img={brock} startDate="September" endDate="December 2022" details={brockDetails2}></Job>
-            <Job jobTitle= "Machine Vision and Robotics Research Assistant" company="University of Guelph" img={uoguelph} startDate="May" endDate="August 2022" details={machineDetails}></Job>
+            <ScrollToTop />
+            <Fade>
+            <div className='inner-container'>
+                <h2 className='rainbow pageheader'>Work Experience</h2> 
+                <div className='jobs-container'>
+                    <Job jobTitle= "Software Developer Co-op" company="Vehikl - Current Position" img={vehikl} startDate="Jan" endDate="August 2024" details={vehiklDetails}></Job>
+                    <Job jobTitle= "Software Developer Co-op" company="Brock Solutions (Transportation & Logistics)" img={brock} startDate="May" endDate="August 2023" details={brockDetails}></Job>
+                    <Job jobTitle= "Software Developer Co-op" company="Brock Solutions (Manufacturing)" img={brock} startDate="September" endDate="December 2022" details={brockDetails2}></Job>
+                    <Job jobTitle= "Machine Vision and Robotics Research Assistant" company="University of Guelph" img={uoguelph} startDate="May" endDate="August 2022" details={machineDetails}></Job>
+                </div>
+            </div>
+            </Fade>
         </div>
     );
 }

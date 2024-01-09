@@ -9,6 +9,7 @@ import Brock from './Brock';
 import Brock2 from './Brock2';
 
 import Navbar from './components/Navbar';
+import Jobs from './Jobs';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
             <div className="content">
                 <Routes>
                     <Route path="/skim-site" element={<Home/>}/>
-                    <Route path="/projects" element={<Projects/>}/>   
+                    <Route path="/experience" element={<Jobs/>}/>   
+                    <Route path="/projects" element={<Projects/>}/>
                     <Route path="/coop/machine" element={<Machine/>}/>
                     <Route path="/coop/brock2" element={<Brock2/>}/>
                     <Route path="/coop/brock" element={<Brock/>}/>
