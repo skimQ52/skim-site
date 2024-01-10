@@ -12,17 +12,18 @@ const Navbar = () => {
 
     return ( 
         <div className="navbar">
-            {/* <h1 onClick={goHome} id="sky">SKY</h1> */}
-            <nav className="bar">
-                <div className="links">
-                    <Link className="link" to="/skim-site">Home</Link>
-                    <Link className="link" to="/experience">Experience</Link>
-                    <Link className="link" to="/projects">Projects</Link>
-                    <Link className="link" to="/coop">Co-op</Link>
+            <div className='navbar-inner'>
+                <nav className="bar">
+                    <div className="links">
+                        <Link className="hover-shine link" to="/skim-site">Home</Link>
+                        <Link className="hover-shine link" to="/experience">Experience</Link>
+                        <Link className="hover-shine link" to="/projects">Projects</Link>
+                        <Link className="hover-shine link" to="/coop">Co-op</Link>
+                    </div>
+                </nav>
+                <div className='socials'>
+                    <SocialFollow />
                 </div>
-            </nav>
-            <div className='socials'>
-                <SocialFollow />
             </div>
         </div>
     );

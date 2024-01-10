@@ -14,13 +14,13 @@ import {
 export default function SocialFollow() {
     return (
         <div className="social-container">
-            <a href="https://www.instagram.com/sky1611/" className="instagram social">
+            <a href="https://www.instagram.com/sky1611/" className="hover-shine instagram social">
                 <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="https://github.com/skimQ52" className="github social">
+            <a href="https://github.com/skimQ52" className="hover-shine github social">
                 <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="https://www.linkedin.com/in/skylar-mawle-17b58422a/" className="linkedin social">
+            <a href="https://www.linkedin.com/in/skylar-mawle-17b58422a/" className="hover-shine linkedin social">
                 <FontAwesomeIcon icon={faLinkedin} />
             </a>
         </div>

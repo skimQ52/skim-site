@@ -71,65 +71,61 @@ code {
   }
 }
 
+.hover-shine:hover {
+  color: plum;
+  transform: translate(-1px, -1px);
+  filter: drop-shadow(1px 1px 4px rgba(177, 177, 177, 1));
+  transition: 0.25s;
+}
 
 /*NAVBAR*/
 
  /*container for links*/
 .navbar {
   position: fixed;
-  left: 2vw;
   top: 3%;
-} 
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
 
-.bar { /* with all the links */
-  white-space: nowrap;
-  margin-left: 5%;
+.navbar-inner {
+  width: 90%;
+  justify-content: space-between;
+  display: flex;
+  flex-flow: row;
+}
+
+.links {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
 }
 
 .link {
-  font-size: 1.5vh;
+  font-size: 14px;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  padding: 2vw 1vh;
-  /* border: 1px solid rgb(60, 60, 60); */
+  margin-right: 8px;
   transition: 0.6s;
-}
-
-.link:hover {
-  color: plum;
-  border-right: 1px solid plum;
-  border-left: 1px solid plum;
 }
 
 
 /* SOCIALS */
 .social-container {
-  position: fixed;
-  right: 4vw;
-  top: 3%;
+  display: flex;
+  flex-flow: row;
   transition: 0.6s;
 }
 
 a.social {
-  color: black;
-  margin: 0 1vw;
-  font-size: 4vh;
+  color: rgba(212, 212, 212, 0.733);
+  font-size: 35px;
   border-radius: 50px;
-  margin-left: 1vh;
-  padding: 0.3vh 1.3vh;
-  background-color: white;
+  margin-left: 15px;
   transition: 0.25s;
-  display: inline-block;
-  text-align: center;
-}
-
-a.social:hover {
-  color: plum;
-  transform: translate(-3px, -9px);
-  filter: drop-shadow(2px 7px 0px rgba(177, 177, 177, 1));
-  transition: 0.25s;
-  /* box-shadow: rgb(184, 66, 138) 0px 0px 5px, rgb(177, 177, 177) 0px 0px 1px, rgb(177, 177, 177) 0px 0px 1px, rgb(177, 177, 177) 0px 0px 1px,rgb(177, 177, 177) 0px 0px 1px; */
-  -webkit-font-smoothing: antialiased !important;
 }
 
 
@@ -610,7 +606,7 @@ a.social:hover {
   .itemProjects {
     width: 100%;
     margin: 2% 0;
-    height: 52vw;
+    height: 60vw;
   }
 
   .inner-container {
