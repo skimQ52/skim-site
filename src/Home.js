@@ -21,7 +21,8 @@ const Home = () => {
                         <HeaderText/>
                         <div className="intro">
                             I'm a 
-                            {" "}<TextLoop delay='1000' mask='true' adjustingSpeed='300' springConfig={{ stiffness: 320, damping: 15 }}>
+                            {" "}
+                            <TextLoop delay='1000' mask='true' adjustingSpeed='300' springConfig={{ stiffness: 320, damping: 15 }}>
                                 <p>Software Developer</p>
                                 <p>Student of Computing</p>
                                 <p>Leader</p>
@@ -35,15 +36,7 @@ const Home = () => {
                     </Fade>
                 </div>
                 
-                {/* <div className="Exp">
-                    <Fade left>
-                    <div className="headerBox">
-                        <h1 className="titleHeader rainbow">Experience</h1>
-                    </div>
-                    </Fade>
-                </div> */}
-                
-                <div className="About">
+                {/* <div className="About">
                     <div className="headerBox">
                         <Fade left>
                         <h1 className="titleHeader rainbow">About Me</h1>
@@ -69,7 +62,7 @@ const Home = () => {
                         </div>
                     </div>
                     </Fade>
-                </div>
+                </div> */}
             </div>
         </div>
     );

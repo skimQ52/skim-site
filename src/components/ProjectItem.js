@@ -11,14 +11,13 @@ export default function ProjectItem(props) {
     return (
         <a href={props.link} target="_blank" style={{textDecoration:"none", color: "inherit"}}>
         <div className="blockProjects">
-                <h2 className="headerProjects">{props.title}</h2>
-                <h2 className="subheaderProjects">{props.desc}</h2>
-                <div className="columnProjects">
-                    {list}
-                </div>
-                <img className="picProjects" src={props.pic}></img>
-                <h2 className="linkProjects">{props.linkText}</h2>
-            
+            <h2 className="headerProjects">{props.title}</h2>
+            <h2 className="subheaderProjects">{props.desc}</h2>
+            <div className="columnProjects">
+                {list}
+            </div>
+            <img className="picProjects" src={props.pic}></img>
+            <h2 className="linkProjects">{props.linkText}</h2>
         </div>
         </a>
     );
