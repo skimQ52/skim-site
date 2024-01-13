@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skim-site/static/css/main.ae06a6b6.css",
-    "main.js": "/skim-site/static/js/main.a97c4138.js",
+    "main.css": "/skim-site/static/css/main.93b49cf6.css",
+    "main.js": "/skim-site/static/js/main.fdb715ef.js",
     "static/media/boneman.jpg": "/skim-site/static/media/boneman.7bb1dedc9ee224288b7d.jpg",
     "static/media/horse.png": "/skim-site/static/media/horse.3e40895a820541d1533f.png",
     "static/media/me.JPG": "/skim-site/static/media/me.b6c2366fbe83f67acfe8.JPG",
@@ -17,11 +17,11 @@
     "static/media/java.png": "/skim-site/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "static/media/shellQ.png": "/skim-site/static/media/shellQ.8d2c5b3e69602a082c9d.png",
     "index.html": "/skim-site/index.html",
-    "main.ae06a6b6.css.map": "/skim-site/static/css/main.ae06a6b6.css.map",
-    "main.a97c4138.js.map": "/skim-site/static/js/main.a97c4138.js.map"
+    "main.93b49cf6.css.map": "/skim-site/static/css/main.93b49cf6.css.map",
+    "main.fdb715ef.js.map": "/skim-site/static/js/main.fdb715ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae06a6b6.css",
-    "static/js/main.a97c4138.js"
+    "static/css/main.93b49cf6.css",
+    "static/js/main.fdb715ef.js"
   ]
 }
