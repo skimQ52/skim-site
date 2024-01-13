@@ -37,7 +37,7 @@ const Jobs = () => {
     ];
 
     return (
-        <div className="Jobs">
+        <div className="outer-container">
             <ScrollToTop />
             <Fade>
             <div className='inner-container'>

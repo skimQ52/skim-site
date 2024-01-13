@@ -311,9 +311,8 @@ a.social {
 /* projects */
 
 .Projects {
-  display: flex;
-  flex-flow: column;
   align-items: center;
+  justify-content: center;
   margin-top: 5%;
   width: 100%
 }
@@ -323,22 +322,59 @@ a.social {
   flex-flow: row wrap;
   justify-content: center;
   user-select: none;
+  width: 100%;
 }
 
-.itemProjects {
-  border-radius: 3%;
-  margin: 1%;
-  height: 26vw;
-  width: 48%;
+.Project {
+  display: flex;
+  flex-flow: column;
+  /* justify-content */
+  position: relative;
+  width: 45%;
+  margin: 15px;
+  /* height: 22vw; */
+  padding: 20px;
+  overflow: none;
   background-color: rgba(119, 119, 119, 0.205);
-  -webkit-font-smoothing: antialiased !important;
-  overflow: hidden;
+  border-radius: 25px;
 }
 
-.itemProjects:hover {
+.project-content {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Project:hover {
   transition: 0.5s;
   cursor: pointer;
   background-color: rgba(110, 110, 110, 0.418);
+}
+
+.project-header {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  height: 35%;
+}
+
+.project-body {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: 55%;
+  justify-content: space-evenly;
+  margin: 15px 0px;
+}
+
+.project-footer {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: 10%;
+  justify-content: right;
+  align-items: last baseline;
 }
 
 .ghostProjects {
@@ -350,25 +386,14 @@ a.social {
   position: relative;
 }
 
-.blockProjects {
-  display: flex;
-  flex-flow: row wrap;
-  margin: min(3.5vh, 2.5vw);
-  overflow: hidden;
-}
-
 .picProjects {
-  border-radius: 3%;
-  width: 70%;
-  margin: auto;
-  margin-left: 4%;
-  margin-top: 2%;
-  display: block;
+  border-radius: 10px;
+  width: 60%;
+  height: 100%;
+  /* object-fit: cover; */
 }
 
 .headerProjects {
-  margin-left: min(2vw, 2vh);
-  margin-bottom: min(0.8vw, 0.8vh);
   text-align: left;
   color: rgb(226, 163, 255) !important;
   font-family: 'Lato';
@@ -376,38 +401,27 @@ a.social {
 }
 
 .subheaderProjects {
-  margin-left: min(2vw, 2vh);
+  /* margin-left: min(2vw, 2vh); */
   text-align: left;
   color: rgb(153, 153, 153) !important;
-  font-family: 'Lato', 'Abel';
-  font-size: min(2.5vw, 2.5vh);
-}
-
-.subsubheaderProjects {
-  margin-left: min(2vw, 2vh);
-  text-align: left;
-  color: rgb(209, 209, 209) !important;
   font-family: 'Lato', 'Abel';
   font-size: min(2.5vw, 2.5vh);
 }
 
 .columnProjects {
   display: flex;
-  width:  20%;
+  width: 20%;
   flex-flow: column wrap;
   text-align: center;
   justify-content: space-evenly;
-  margin-right: 2%;
-  margin-left: 3%;
 }
 
 .linkProjects {
-  position: absolute;
-  right: 5%;
-  bottom: 3%;
+  position: relative;
   color: rgb(153, 153, 153) !important;
   font-family: 'Lato', 'Abel';
-  font-size: min(2vw, 2vh);
+  /* font-size: min(2vw, 2vh); */
+  font-size: 15px;
   font-style: italic;
 }
 
@@ -435,7 +449,7 @@ a.social {
   text-align: left;
   color: rgb(158, 158, 158) !important;
   font-family: 'Lato';
-  font-size: 4.2vh;
+  font-size: 3.2vh;
 }
 
 .subsubheader {
@@ -479,7 +493,7 @@ a.social {
 
 /* JOBS */
 
-.Jobs {
+.outer-container {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -507,27 +521,13 @@ a.social {
   position: relative;
   display: flex;
   flex-flow: row nowrap;
-  background: linear-gradient(-45deg, #1b1b1b, #2b2b2b, #353535, #3b3b3b);
-	background-size: 400% 400%;
-	/* animation: blockgradient 20s ease infinite; */
+  background-color: rgb(35, 35, 35);
   padding: 15px;
   border-radius: 15px;
-  box-shadow: 0px 5px 5px rgba(7, 7, 7, 0.438);
+  box-shadow: 0px 5px 5px rgba(7, 7, 7, 0.592);
   z-index: 2;
   user-select: none;
 }
-
-/* @keyframes blockgradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-} */
 
 .jobHeader {
   display: flex;
@@ -595,41 +595,6 @@ a.social {
   font-size: min(2.2vw, 2.2vh);
 }
 
-/* mobile changes*/
-@media only screen and (max-width: 1500px) {
-
-  .link {
-    font-size: 11px;
-  }
-
-  .Projects {
-    margin-top: 75px;
-  }
-
-  .itemProjects {
-    width: 100%;
-    margin: 2% 0;
-    height: 60vw;
-  }
-
-  .inner-container {
-    width: 90%;
-  }
-
-  .Jobs {
-    margin-top: 75px;
-  }
-
-  .Job {
-    margin: 1% 0;
-  }
-
-  .job-content {
-    padding: 3%;
-  }
-
-}
-
 /* widescreen changes */
 @media only screen and (min-width: 2000px) {
 
@@ -642,14 +607,9 @@ a.social {
     margin-left: 25px;
   }
 
-  .itemProjects {
-    width: 20%;
-    height: 13vw;
-  }
-
-  .itemProjects {
-    width: 45%;
-    height: 28vw;
+  .Project {
+    width: 40%;
+    margin: 2% 0;
   }
 
   .inner-container {
@@ -664,4 +624,43 @@ a.social {
   .Job {
     margin: 1% 0;
   }
+}
+
+/* mobile changes*/
+@media only screen and (max-width: 1500px) {
+
+  .link {
+    font-size: 11px;
+  }
+
+  .outer-container {
+    margin-top: 75px;
+  }
+
+  .Project {
+    width: 100%;
+    margin: 2% 0;
+    border-radius: 10px;
+  }
+
+  .linkProjects {
+    font-size: 14px;
+  }
+
+  .picProjects {
+    border-radius: 5px;
+  }
+
+  .inner-container {
+    width: 90%;
+  }
+
+  .Job {
+    margin: 10px 0;
+  }
+
+  .job-content {
+    padding: 3%;
+  }
+
 }
