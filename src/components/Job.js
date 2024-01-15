@@ -18,7 +18,7 @@ const Job = ({ jobTitle, img, company, startDate, endDate, details }) => {
                 <div className="job-content">
                     <img src={img} alt={jobTitle + " Logo"} className="logoExp"></img>
                     <div className="jobHeader">
-                        <span className='jobTitle'>{jobTitle}</span>
+                        <h2>{jobTitle}</h2>
                         <span className='jobCompany'>{company}</span>
                     </div>
 

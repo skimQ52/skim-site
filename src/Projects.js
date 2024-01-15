@@ -21,50 +21,39 @@ const Projects = () => {
     const listShellQ = ['C', 'Threading', 'Unix', 'OS'];
     const listBoneman = ['Arduino', 'IDE/C++', 'Circuitry'];
     return (
+        <Fade cascade>
         <div className="outer-container">
             <ScrollToTop />
 
-            {/* <Fade> */}
             <div className='inner-container'>
                 <h2 className='rainbow pageheader' style={{marginLeft: '1%'}}>Personal Projects</h2> 
                 
                 <div className="projects-container">
                     
                     {/* FRIDGEWISE */}
-                    {/* <Slide left> */}
                         <ProjectItem title="FridgeWise" desc="A Food and Meal tracking service with the ability to AI generate meals!"
                             list={listFridgeWise} pic={FridgeWise} link="https://github.com/skimQ52/fridgeQ" linkText={linkGithub}></ProjectItem>
-                    {/* </Slide> */}
 
                     {/* SKIMAGE PROCESSOR */}
-                    {/* <Slide right> */}
                         <ProjectItem title="The 'skImage' Processor" desc="An Image Processing Toolbox capable of performing an array of operations under various interpolations."
                             list={listSkimage} pic={skimageMenu} link="https://github.com/skimQ52/skImage-processor" linkText={linkGithub}></ProjectItem>
-                    {/* </Slide> */}
 
                     {/* SVG PARSER */}
-                    {/* <Slide left> */}
                         <ProjectItem title="SVG Parser" desc="A full-stack web application built to parse, display and edit existing Scalable Vector Graphics files."
                             list={listSVG} pic={svg} link="https://github.com/skimQ52/SVGParser" linkText={linkGithub}></ProjectItem>
-                    {/* </Slide> */}
 
                     {/* SHELLQ */}
-                    {/* <Slide right> */}
                         <ProjectItem title="shellQ" desc="A command-line Unix shell which can access and manipulate the operating system's services, mimicing the notorious 'Bash'."
                             list={listShellQ} pic={shellQ} link="https://github.com/skimQ52/shellQ" linkText={linkGithub}></ProjectItem>
-                    {/* </Slide> */}
 
                     {/* BONEMAN STAN */}
-                    {/* <Slide left> */}
                         <ProjectItem title="Boneman Stan" desc="A handheld Arduino game console that pairs a 16x2 LED module with a joystick to play the platformer game 'Boneman Stan'."
                             list={listBoneman} pic={boneman}></ProjectItem>
-                    {/* </Slide> */}
 
-                    {/* <div className="ghostProjects"></div> */}
                 </div>
             </div>
-            {/* </Fade> */}
-        </div> 
+        </div>
+        </Fade>
     );
 }
  

@@ -13,8 +13,8 @@ export default function ProjectItem(props) {
             <a href={props.link} target="_blank" style={{textDecoration:"none", color: "inherit", padding: '-25px'}}>
                 <div className="project-content">
                     <div className='project-header'>
-                        <h2 className="headerProjects">{props.title}</h2>
-                        <h2 className="subheaderProjects">{props.desc}</h2>
+                        <h2 className>{props.title}</h2>
+                        <h3 className="subheaderProjects">{props.desc}</h3>
                     </div>
                     <div className='project-body'>
                         <div className="columnProjects">
@@ -23,7 +23,7 @@ export default function ProjectItem(props) {
                         <img className="picProjects" src={props.pic}></img>
                     </div>
                     <div className='project-footer'>
-                        <h2 className="linkProjects">{props.linkText}</h2>
+                        <h4 className="linkProjects">{props.linkText}</h4>
                     </div>
                 </div>
             </a>

@@ -41,7 +41,7 @@ const Jobs = () => {
             <ScrollToTop />
             <Fade>
             <div className='inner-container'>
-                <h2 className='rainbow pageheader'>Work Experience</h2> 
+                <h1 className='rainbow pageheader'>Work Experience</h1> 
                 <div className='jobs-container'>
                     <Job jobTitle= "Software Developer Co-op" company="Vehikl - Current Position" img={vehikl} startDate="Jan" endDate="August 2024" details={vehiklDetails}></Job>
                     <Job jobTitle= "Software Developer Co-op" company="Brock Solutions (Transportation & Logistics)" img={brock} startDate="May" endDate="August 2023" details={brockDetails}></Job>

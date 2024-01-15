@@ -19,6 +19,14 @@ code {
     monospace;
 }
 
+h2 {
+  text-align: left;
+  color: rgb(226, 163, 255) !important;
+  font-family:'Lato';
+  font-weight: bold;
+  font-size: min(3.5vw, 3.5vh);
+}
+
 .pageheader {
   font-family: 'Lato';
   font-weight: bolder;
@@ -393,13 +401,6 @@ a.social {
   /* object-fit: cover; */
 }
 
-.headerProjects {
-  text-align: left;
-  color: rgb(226, 163, 255) !important;
-  font-family: 'Lato';
-  font-size: min(5vw, 5vh);
-}
-
 .subheaderProjects {
   /* margin-left: min(2vw, 2vh); */
   text-align: left;
@@ -551,14 +552,6 @@ a.social {
 .jobFlyoutIcon :hover {
   cursor: pointer;
   color: rgb(226, 163, 255) !important;
-}
-
-.jobTitle {
-  text-align: left;
-  color: rgb(226, 163, 255) !important;
-  font-family:'Lato';
-  font-weight: bold;
-  font-size: min(3.5vw, 3.5vh);
 }
 
 .jobCompany{
