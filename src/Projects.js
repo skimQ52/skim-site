@@ -15,7 +15,7 @@ const Projects = () => {
 
     const linkGithub = "Click to see more on GitHub →";
 
-    const listFridgeWise = ['MERN Stack', 'OpenAI API', 'JavaScript', 'HTML/CSS'];
+    const listFridgeWise = ['TypeScript React', 'OpenAI API', 'Node.js', 'MongoDB'];
     const listSkimage = ['Python', 'NumPy', 'Tkinter', 'D.I.P'];
     const listSVG = ['C', 'Node.js', 'HTML/CSS', 'JQuery'];
     const listShellQ = ['C', 'Threading', 'Unix', 'OS'];
