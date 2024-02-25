@@ -148,8 +148,8 @@ a.social {
   display: flex;
   flex-flow: column;
   position: relative;
-  padding-bottom: 50px;
-  gap: 50px;
+  padding-bottom: 100px;
+  gap: 125px;
 }
 
 .NameContainer {
@@ -296,6 +296,56 @@ a.social {
 
   .textAbout {
     font-size: 1rem;
+  }
+}
+
+/* Skills */
+.Skills {
+  display: flex;
+  flex-flow: column;
+  width: 45%;
+  margin: auto;
+  gap: 25px;
+}
+
+.Skills-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.Skills-text {
+  text-align: center;
+}
+
+.Skills-text h1 {
+  font-family: "Lato", 'serif';
+  font-size: 2.75rem;
+}
+
+.Skills-icon {
+  font-size: 4rem;
+  color: #dbe5e5;
+}
+
+@media (max-width: 768px) {
+  .Skills {
+    width: 80%;
+    gap: 25px;
+  }
+
+  .Skills-inner {
+    gap: 20px;
+  }
+
+  .Skills-text h1 {
+    font-size: 2rem;
+  }
+
+  .Skills-icon {
+    font-size: 3rem;
+    color: #dbe5e5;
   }
 }
 
