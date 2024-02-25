@@ -147,9 +147,7 @@ a.social {
 .Home {
   display: flex;
   flex-flow: column;
-  width: 70%;
   position: relative;
-  margin: auto;
   padding-bottom: 50px;
   gap: 50px;
 }
@@ -261,6 +259,8 @@ a.social {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  width: 60%;
+  margin: auto;
 }
 
 .textAbout {
@@ -270,7 +270,7 @@ a.social {
 }
 
 .AboutImage {
-  flex: 0 0 30%;
+  flex: 0 0 20%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -285,13 +285,13 @@ a.social {
 
 @media (max-width: 768px) {
   .Home {
-    width: 90%;
     gap: 100px;
   }
 
   .About {
     flex-direction: column;
     padding-top: 50px;
+    width: 90%;
   }
 
   .textAbout {

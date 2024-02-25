@@ -10,11 +10,12 @@ export default function Profile() {
             <div className="Name">
                 <HeaderText/>
                 <div className="intro">
-                    I'm a
+                    Hey, I'm a
                     {" "}
                     <TextLoop delay="1000" mask="true" adjustingSpeed="300"
                               springConfig={{stiffness: 320, damping: 15}}>
                         <p>Software Developer</p>
+                        <p>Web Developer</p>
                         <p>Student of Computing</p>
                         <p>Leader</p>
                         <p>Teammate</p>
