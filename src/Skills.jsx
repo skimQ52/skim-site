@@ -14,7 +14,7 @@ import Fade from "react-reveal/Fade";
 
 export default function Skills() {
     return <div className={"Skills"}>
-        <Fade up>
+        <Fade left>
         <div className={"Skills-text"}>
             <h1 className="rainbow">My Tech Stack</h1>
         </div>

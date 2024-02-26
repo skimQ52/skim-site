@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 // import { useNavigate } from 'react-router-dom';
 import SocialFollow from './SocialFollow';
 
@@ -17,7 +18,7 @@ const Navbar = () => {
                     <div className="links">
                         <Link className="hover-shine link" to="/skim-site">Home</Link>
                         <Link className="hover-shine link" to="/experience">Experience</Link>
-                        <Link className="hover-shine link" to="/projects">Projects</Link>
+                        <Link className="hover-shine link" to="/skim-site#Projects">Projects</Link>
                         <Link className="hover-shine link" to="/coop">Co-op</Link>
                     </div>
                 </nav>

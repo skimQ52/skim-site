@@ -5,6 +5,9 @@ import Profile from "./Profile";
 import {About} from "./About";
 import Skills from "./Skills";
 
+import "react-multi-carousel/lib/styles.css";
+import Projects from "./Projects";
+
 const Home = () => {
     return ( 
         <div className={"outer-home"}>
@@ -15,6 +18,8 @@ const Home = () => {
                 <About/>
 
                 <Skills/>
+
+                <Projects/>
             </div>
         </div>
     );
