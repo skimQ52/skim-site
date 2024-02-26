@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/skim-site/static/css/main.dad817ff.css",
-    "main.js": "/skim-site/static/js/main.aea3f7c8.js",
+    "main.css": "/skim-site/static/css/main.7b747bac.css",
+    "main.js": "/skim-site/static/js/main.842e5998.js",
     "static/media/boneman.jpg": "/skim-site/static/media/boneman.7bb1dedc9ee224288b7d.jpg",
     "static/media/horse.png": "/skim-site/static/media/horse.3e40895a820541d1533f.png",
     "static/media/me.JPG": "/skim-site/static/media/me.b6c2366fbe83f67acfe8.JPG",
@@ -14,12 +14,15 @@
     "static/media/vehikl.png": "/skim-site/static/media/vehikl.354e5815101d3afdd138.png",
     "static/media/java.png": "/skim-site/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "static/media/shellQ.png": "/skim-site/static/media/shellQ.8d2c5b3e69602a082c9d.png",
+    "static/media/revicons.eot": "/skim-site/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/skim-site/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/skim-site/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/skim-site/index.html",
-    "main.dad817ff.css.map": "/skim-site/static/css/main.dad817ff.css.map",
-    "main.aea3f7c8.js.map": "/skim-site/static/js/main.aea3f7c8.js.map"
+    "main.7b747bac.css.map": "/skim-site/static/css/main.7b747bac.css.map",
+    "main.842e5998.js.map": "/skim-site/static/js/main.842e5998.js.map"
   },
   "entrypoints": [
-    "static/css/main.dad817ff.css",
-    "static/js/main.aea3f7c8.js"
+    "static/css/main.7b747bac.css",
+    "static/js/main.842e5998.js"
   ]
 }
