@@ -401,22 +401,45 @@ a.social {
 .Project {
   display: flex;
   flex-flow: column;
-  padding: 20px;
+  padding: 15px;
   background-color: rgba(35, 35, 35);
-  border-radius: 10px;
+  border-radius: 15px;
   margin: 0 15px;
+  transition: filter 0.3s ease-in-out;
+  /*height: 85%;*/
+}
+
+.overlay-button {
+  position: absolute;
+  bottom: 0%;
+  right: 5%;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: rgb(52, 52, 52);
+  color: white;
+  font-size: 2rem;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 5px 5px rgba(2, 2, 2, 0.292);
+}
+
+.overlay-button:hover {
+  cursor: pointer;
+  color: plum;
+  transform: translate(0px, -2px);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .project-content {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-}
-
-.Project:hover {
-  transition: 0.5s;
-  cursor: pointer;
-  background-color: rgba(110, 110, 110, 0.418);
 }
 
 .project-header {

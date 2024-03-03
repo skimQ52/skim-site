@@ -14,8 +14,6 @@ import svg from "./imgs/svg.png";
 
 export default function Projects() {
 
-    const linkGithub = "Click to see more on GitHub →";
-
     const listFridgeWise = ['TypeScript React', 'OpenAI API', 'Node.js', 'MongoDB'];
     const listSkimage = ['Python', 'NumPy', 'Tkinter', 'D.I.P'];
     const listSVG = ['C', 'Node.js', 'HTML/CSS', 'JQuery'];
@@ -49,27 +47,27 @@ export default function Projects() {
             <Carousel
                 responsive={responsive}
                 infinite={true}
-                autoPlay={true}
+                autoPlay={false}
                 autoPlaySpeed={5000}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
             >
                 <ProjectItem title="FridgeWise"
                              desc="A Food and Meal tracking service with the ability to AI generate meals!"
-                             list={listFridgeWise} pic={FridgeWise} link="https://github.com/skimQ52/fridgeQ"
-                             linkText={linkGithub}></ProjectItem>
+                             list={listFridgeWise} pic={FridgeWise} github="https://github.com/skimQ52/fridgeQ"
+                             ></ProjectItem>
                 <ProjectItem title="The 'skImage' Processor"
                              desc="An Image Processing Toolbox capable of performing an array of operations under various interpolations."
                              list={listSkimage} pic={skimageMenu}
-                             link="https://github.com/skimQ52/skImage-processor"
-                             linkText={linkGithub}></ProjectItem>
+                             github="https://github.com/skimQ52/skImage-processor"
+                             ></ProjectItem>
                 <ProjectItem title="SVG Parser"
                              desc="A full-stack web application built to parse, display and edit existing Scalable Vector Graphics files."
-                             list={listSVG} pic={svg} link="https://github.com/skimQ52/SVGParser"
-                             linkText={linkGithub}></ProjectItem>
+                             list={listSVG} pic={svg} github="https://github.com/skimQ52/SVGParser"
+                             ></ProjectItem>
                 <ProjectItem title="shellQ"
                              desc="A command-line Unix shell which can access and manipulate the operating system's services, mimicing the notorious 'Bash'."
-                             list={listShellQ} pic={shellQ} link="https://github.com/skimQ52/shellQ"
-                             linkText={linkGithub}></ProjectItem>
+                             list={listShellQ} pic={shellQ} github="https://github.com/skimQ52/shellQ"
+                             ></ProjectItem>
                 <ProjectItem title="Boneman Stan"
                              desc="A handheld Arduino game console that pairs a 16x2 LED module with a joystick to play the original platformer game 'Boneman Stan'."
                              list={listBoneman} pic={boneman}></ProjectItem>
