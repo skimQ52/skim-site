@@ -47,7 +47,7 @@ export default function Projects() {
             <Carousel
                 responsive={responsive}
                 infinite={true}
-                autoPlay={false}
+                autoPlay={true}
                 autoPlaySpeed={5000}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
             >
