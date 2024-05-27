@@ -6,6 +6,7 @@ import ScrollToTop from './components/ScrollToTop'
 
 import uoguelph from "./imgs/uoguelph.jpg";
 import brock from "./imgs/brock.jpg";
+import vehikl from "./imgs/vehikl.png";
 
 const Coop = () => {
 
@@ -19,6 +20,9 @@ const Coop = () => {
     }
     const goBrock2 = (e) => {
         navigate('/coop/brock2', { replace: true })
+    }
+    const goVehikl = (e) => {
+        navigate('/coop/vehikl', { replace: true })
     }
     return (
         <Bounce left cascade>
@@ -56,6 +60,16 @@ const Coop = () => {
                     <div>
                         <h2 className="headerExp">Brock Solutions</h2>
                         <h2 className="subheaderExp">Software Developer (TL) | Work Term 3</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" onClick={goVehikl}>
+                <div className="blockCoop">
+                    <img src={vehikl} alt="Vehikl Logo" className="logoExp"></img>
+                    <div>
+                        <h2 className="headerExp">Vehikl</h2>
+                        <h2 className="subheaderExp">Software Developer (Co-op) | Work Term 4</h2>
                     </div>
                 </div>
             </div>
