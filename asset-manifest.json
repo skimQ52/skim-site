@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/skim-site/static/css/main.a67f9c2a.css",
-    "main.js": "/skim-site/static/js/main.25f1a655.js",
+    "main.js": "/skim-site/static/js/main.877ba2a5.js",
     "static/media/boneman.jpg": "/skim-site/static/media/boneman.7bb1dedc9ee224288b7d.jpg",
     "static/media/horse.png": "/skim-site/static/media/horse.3e40895a820541d1533f.png",
     "static/media/me.JPG": "/skim-site/static/media/me.b6c2366fbe83f67acfe8.JPG",
@@ -11,6 +11,7 @@
     "static/media/svg.png": "/skim-site/static/media/svg.a0695d41984034766773.png",
     "static/media/uoguelph.jpg": "/skim-site/static/media/uoguelph.488ac90e7154491fd719.jpg",
     "static/media/yolo.png": "/skim-site/static/media/yolo.c0abcadab08fc1cd33b5.png",
+    "static/media/laravel.png": "/skim-site/static/media/laravel.8b2939ca7ad8851c40a2.png",
     "static/media/vehikl.png": "/skim-site/static/media/vehikl.354e5815101d3afdd138.png",
     "static/media/java.png": "/skim-site/static/media/java.f5dd86c3ef6ef3f85acf.png",
     "static/media/shellQ.png": "/skim-site/static/media/shellQ.8d2c5b3e69602a082c9d.png",
@@ -19,10 +20,10 @@
     "static/media/revicons.woff": "/skim-site/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/skim-site/index.html",
     "main.a67f9c2a.css.map": "/skim-site/static/css/main.a67f9c2a.css.map",
-    "main.25f1a655.js.map": "/skim-site/static/js/main.25f1a655.js.map"
+    "main.877ba2a5.js.map": "/skim-site/static/js/main.877ba2a5.js.map"
   },
   "entrypoints": [
     "static/css/main.a67f9c2a.css",
-    "static/js/main.25f1a655.js"
+    "static/js/main.877ba2a5.js"
   ]
 }
