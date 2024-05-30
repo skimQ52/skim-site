@@ -57,7 +57,7 @@ const Vehikl = () => {
                 <h2 className="subheader">My Role and Contributions</h2>
                 <div className="block">
                     <p className="text">
-                    I was brought onto one of the "Welcome-Wagon" projects that are there for new-hires. The product is called ElephasCare, and it is a device which uses Artificial Intelligence
+                    I was brought onto one of the "Welcome-Wagon" projects that are there for new-hires. The product is a device which uses Artificial Intelligence
                     in order to monitor Long-term care home residents' activity and safety. As a software consulting company, Vehikl and our team's role is to develop the desktop dashboard (website)
                     and the mobile application, as well as the backend which ties everything together. The tech-stack of our work was Laravel for the backend, React for the web dashboard and React-Native
                     for the mobile application.
@@ -72,7 +72,7 @@ const Vehikl = () => {
 
                 <div className="block">
                     <p className="text" style={{marginLeft: "0vw", marginRight: "2vw", width: "65%"}}>
-                    The bulk of the work done was in Laravel for the backend, interacting with the AI ElephasCare data. Presenting it in different places, sending relevant
+                    The bulk of the work done was in Laravel for the backend, interacting with the AI data. Presenting it in different places, sending relevant
                     push notifications to the mobile app, Interacting with and handling data within the mongoDB database connection. I got a ton of experience with the Laravel Framework,
                     creating and using Models, Controllers, Routes, Jobs, Commands, Routes, Facades in general, Service Container and making providers and a whole bunch of fancy Laravel tools.
 
