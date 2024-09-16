@@ -6,6 +6,7 @@ import Machine from './Machine';
 import Brock from './Brock';
 import Brock2 from './Brock2';
 import Vehikl from './Vehikl';
+import Vehikl2 from './Vehikl2';
 
 import Navbar from './components/Navbar';
 import Jobs from './Jobs';
@@ -37,6 +38,7 @@ function App() {
                     <Route path="/coop/brock2" element={<Brock2/>}/>
                     <Route path="/coop/brock" element={<Brock/>}/>
                     <Route path="/coop/vehikl" element={<Vehikl/>}/>
+                    <Route path="/coop/vehikl2" element={<Vehikl2/>}/>
                     <Route path="/coop" element={<Coop/>}/>
                 </Routes>
             </div>

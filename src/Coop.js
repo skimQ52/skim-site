@@ -24,6 +24,9 @@ const Coop = () => {
     const goVehikl = (e) => {
         navigate('/coop/vehikl', { replace: true })
     }
+    const goVehikl2 = (e) => {
+        navigate('/coop/vehikl2', { replace: true })
+    }
     return (
         <Bounce left cascade>
         <div className="Coop">
@@ -70,6 +73,16 @@ const Coop = () => {
                     <div>
                         <h2 className="headerExp">Vehikl</h2>
                         <h2 className="subheaderExp">Software Developer (Co-op) | Work Term 4</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" onClick={goVehikl2}>
+                <div className="blockCoop">
+                    <img src={vehikl} alt="Vehikl Logo" className="logoExp"></img>
+                    <div>
+                        <h2 className="headerExp">Vehikl</h2>
+                        <h2 className="subheaderExp">Software Developer (Co-op) | Work Term 5</h2>
                     </div>
                 </div>
             </div>
