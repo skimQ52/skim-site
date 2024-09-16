@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/skim-site/static/css/main.a67f9c2a.css",
-    "main.js": "/skim-site/static/js/main.bfeb12e4.js",
+    "main.js": "/skim-site/static/js/main.e0a87f12.js",
     "static/media/boneman.jpg": "/skim-site/static/media/boneman.7bb1dedc9ee224288b7d.jpg",
     "static/media/horse.png": "/skim-site/static/media/horse.3e40895a820541d1533f.png",
+    "static/media/laracon2.jpg": "/skim-site/static/media/laracon2.48e189f26e3a5d436bd2.jpg",
     "static/media/me.JPG": "/skim-site/static/media/me.b6c2366fbe83f67acfe8.JPG",
     "static/media/FridgeWise.png": "/skim-site/static/media/FridgeWise.94d118872f788e81b612.png",
     "static/media/austinAirport.jpg": "/skim-site/static/media/austinAirport.268d43c41bb396cfe089.jpg",
+    "static/media/laracon1.jpg": "/skim-site/static/media/laracon1.137b01a3b3d65d823760.jpg",
     "static/media/skimageMenu.png": "/skim-site/static/media/skimageMenu.ff58f708493f6d4c5ec1.png",
     "static/media/svg.png": "/skim-site/static/media/svg.a0695d41984034766773.png",
     "static/media/uoguelph.jpg": "/skim-site/static/media/uoguelph.488ac90e7154491fd719.jpg",
@@ -20,10 +22,10 @@
     "static/media/revicons.woff": "/skim-site/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/skim-site/index.html",
     "main.a67f9c2a.css.map": "/skim-site/static/css/main.a67f9c2a.css.map",
-    "main.bfeb12e4.js.map": "/skim-site/static/js/main.bfeb12e4.js.map"
+    "main.e0a87f12.js.map": "/skim-site/static/js/main.e0a87f12.js.map"
   },
   "entrypoints": [
     "static/css/main.a67f9c2a.css",
-    "static/js/main.bfeb12e4.js"
+    "static/js/main.e0a87f12.js"
   ]
 }
