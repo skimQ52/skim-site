@@ -14,7 +14,7 @@ import svg from "./imgs/svg.png";
 
 export default function Projects() {
 
-    const listFridgeWise = ['TypeScript React', 'OpenAI API', 'Node.js', 'MongoDB'];
+    const listFridgeWise = ['Laravel', 'OpenAI API', 'TypeScript React', 'MongoDB'];
     const listSkimage = ['Python', 'NumPy', 'Tkinter', 'D.I.P'];
     const listSVG = ['C', 'Node.js', 'HTML/CSS', 'JQuery'];
     const listShellQ = ['C', 'Threading', 'Unix', 'OS'];
@@ -40,7 +40,7 @@ export default function Projects() {
     };
 
     return <div className={"Projects"} id={"Projects"}>
-        <Fade left>
+        <Fade>
             <div className={"Skills-text"}>
                 <h1 className="rainbow">Projects</h1>
             </div>
@@ -52,7 +52,7 @@ export default function Projects() {
                 removeArrowOnDeviceType={["tablet", "mobile"]}
             >
                 <ProjectItem title="FridgeWise"
-                             desc="A Food and Meal tracking service with the ability to AI generate meals!"
+                             desc="A Food and Recipe tracking service with the ability to AI generate recipes!"
                              list={listFridgeWise} pic={FridgeWise} github="https://github.com/skimQ52/fridgeQ"
                              ></ProjectItem>
                 <ProjectItem title="The 'skImage' Processor"

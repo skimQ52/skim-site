@@ -4,7 +4,7 @@ import React from "react";
 
 export function About() {
     return <div className="About">
-        <Fade left>
+        <Fade>
             <div className={"AboutImage"}>
                 <img src={picture} alt="Ontop a mountain holding a bird" style={{
                     borderRadius: "50%",
@@ -23,10 +23,10 @@ export function About() {
                                      lineHeight: "0.01",
                                      color: "white"
                                  }}>Hi there! </span>
-                    I am a fourth year student at the University of Guelph studying Computer Science.
+                    I am a fifth year student at the University of Guelph studying Computer Science.
                     I love to spend time outside, as well as hone my skills in various
                     sports. Equipped with a big smile and a positive mindset, I am a natural born leader.
-                    As a competent programmer—and an even better learner, problem solving excites me. Let's get
+                    As a competent programmer—and an even better learner, solving problems excites me. Let's get
                     to work!
                 </p>
             </div>

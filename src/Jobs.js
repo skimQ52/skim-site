@@ -11,22 +11,21 @@ import vehikl from "./imgs/vehikl.png";
 const Jobs = () => {
 
     const vehiklDetails = [
-        "Just getting started! :D"
+        "Developed and integrated a RESTful API in PHP Laravel to interface with Machine Learning inferenced data",
+        "Designed and integrated website front-ends in React and Vue and an iOS app with React Native Expo",
+        "Leveraged Test-Driven-Development to create hundreds of tests with over 2000 assertions",
+        "Optimized data flow through MongoDB and MySQL Databases",
+        "Implemented iOS push notifications using Firebase Cloud Messaging, enhancing user engagement and real-time communication within the app"
     ];
 
     const brockDetails = [
-        "Spearheaded the development and configuration of software for the Austin-Bergstrom International Airport",
-        "As the sole developer, implemented a Baggage Handling System Map, enabling the real-time display and simulation of 10,000 to 12,000 bags daily",
-        "Performed Integrated Testing to ensure all pieces of the large project were functional",
-        "Created and populated databases using SQL Server Management Studio"
+        "Co-developed and configured the Austin-Bergstrom International Airport Baggage Handling System Map, enabling the real-time display and simulation of 10,000 to 12,000 bags daily",
+        "Created, configured and populated databases using SQL Server Management Studio"
     ];
 
     const brockDetails2 = [
-        "Implemented vital features in Java Vaadin for a Manufacturing Execution System to be used by hundreds of engineers daily",
-        "Demonstrated efficient Object Oriented Programming principles resulting in faster loading and query times",
+        "Implemented vital full stack features for a Manufacturing Execution System in Java Vaadin to aid hundreds of engineers",
         "Created and manipulated stored procedures for the large database with SQL Server Management Studio",
-        "Performed Unit Testing of my own and others code to ensure flawless functionality",
-        "Collaborated via Azure DevOps (TFS) in an agile environment of a small team of developers"
     ];  
 
     const machineDetails = [
@@ -43,10 +42,10 @@ const Jobs = () => {
             <div className='inner-container'>
                 <h1 className='rainbow pageheader'>Work Experience</h1> 
                 <div className='jobs-container'>
-                    <Job jobTitle= "Software Developer Co-op" company="Vehikl - Current Position" img={vehikl} startDate="Jan" endDate="August 2024" details={vehiklDetails}></Job>
-                    <Job jobTitle= "Software Developer Co-op" company="Brock Solutions (Transportation & Logistics)" img={brock} startDate="May" endDate="August 2023" details={brockDetails}></Job>
-                    <Job jobTitle= "Software Developer Co-op" company="Brock Solutions (Manufacturing)" img={brock} startDate="September" endDate="December 2022" details={brockDetails2}></Job>
-                    <Job jobTitle= "Machine Vision and Robotics Research Assistant" company="University of Guelph" img={uoguelph} startDate="May" endDate="August 2022" details={machineDetails}></Job>
+                    <Job jobTitle= "Software Developer Co-op" company="Vehikl" img={vehikl} startDate="Jan" endDate="Aug 2024" details={vehiklDetails}></Job>
+                    <Job jobTitle= "Software Developer Co-op" company="Brock Solutions (Transportation & Logistics)" img={brock} startDate="May" endDate="Aug 2023" details={brockDetails}></Job>
+                    <Job jobTitle= "Software Developer Co-op" company="Brock Solutions (Manufacturing)" img={brock} startDate="Sep" endDate="Dec 2022" details={brockDetails2}></Job>
+                    <Job jobTitle= "Machine Vision and Robotics Research Assistant" company="University of Guelph" img={uoguelph} startDate="May" endDate="Aug 2022" details={machineDetails}></Job>
                 </div>
             </div>
             </Fade>
