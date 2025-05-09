@@ -23,11 +23,10 @@ export function About() {
                                      lineHeight: "0.01",
                                      color: "white"
                                  }}>Hi there! </span>
-                    I am a fifth year student at the University of Guelph studying Computer Science.
-                    I love to spend time outside, as well as hone my skills in various
-                    sports. Equipped with a big smile and a positive mindset, I am a natural born leader.
-                    As a competent programmer—and an even better learner, solving problems excites me. Let's get
-                    to work!
+                    I'm a recent Computer Science graduate from the University of Guelph.
+                    Outside of tech, I love to hike, travel, and play a few different sports.
+                    As a competent programmer—and an even better learner, solving problems excites me.
+                    Let’s build something great together!
                 </p>
             </div>
         </Fade>

@@ -1,7 +1,7 @@
 import Fade from "react-reveal/Fade";
 import HeaderText from "./components/HeaderText";
 import TextLoop from "react-text-loop";
-import picture from "./imgs/me.JPG";
+import picture from "./imgs/profile.jpg";
 import React from "react";
 
 export default function Profile() {
