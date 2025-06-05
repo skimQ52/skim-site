@@ -407,6 +407,13 @@ a.social {
   margin: 0 15px;
   transition: filter 0.3s ease-in-out;
   /*height: 85%;*/
+  height: 300px;
+}
+
+@media (max-width: 768px) {
+  .Project {
+    height: 200px;
+  }
 }
 
 .overlay-button {

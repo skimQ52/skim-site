@@ -42,6 +42,7 @@ const Jobs = () => {
             <div className='inner-container'>
                 <h1 className='rainbow pageheader'>Work Experience</h1> 
                 <div className='jobs-container'>
+                    <Job jobTitle= "Software Developer" company="Vehikl" img={vehikl} startDate="May 2025" endDate="Present" details={["Laravel-ing"]}></Job>
                     <Job jobTitle= "Software Developer Co-op" company="Vehikl" img={vehikl} startDate="Jan" endDate="Aug 2024" details={vehiklDetails}></Job>
                     <Job jobTitle= "Software Developer Co-op" company="Brock Solutions (Transportation & Logistics)" img={brock} startDate="May" endDate="Aug 2023" details={brockDetails}></Job>
                     <Job jobTitle= "Software Developer Co-op" company="Brock Solutions (Manufacturing)" img={brock} startDate="Sep" endDate="Dec 2022" details={brockDetails2}></Job>

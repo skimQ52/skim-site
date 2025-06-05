@@ -5,6 +5,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import ProjectItem from "./components/ProjectItem";
 
+import pickTheBetterNumberImg from "./imgs/pickthebetternumber.png";
 import FridgeWise from "./imgs/FridgeWise.png";
 import skimageMenu from "./imgs/skimageMenu.png";
 import shellQ from "./imgs/shellQ.png";
@@ -14,6 +15,7 @@ import svg from "./imgs/svg.png";
 
 export default function Projects() {
 
+    const listNumber = ['Laravel', 'Vue', 'SQLite'];
     const listFridgeWise = ['Laravel', 'OpenAI API', 'TypeScript React', 'MongoDB'];
     const listSkimage = ['Python', 'NumPy', 'Tkinter', 'D.I.P'];
     const listSVG = ['C', 'Node.js', 'HTML/CSS', 'JQuery'];
@@ -51,6 +53,10 @@ export default function Projects() {
                 autoPlaySpeed={5000}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
             >
+                <ProjectItem title="Pick The Better Number"
+                             desc="Make your pick, join the vote to find out the best numbers!"
+                             list={listNumber} pic={pickTheBetterNumberImg} github="https://github.com/skimQ52/number-ranker"
+                             ></ProjectItem>
                 <ProjectItem title="FridgeWise"
                              desc="A Food and Recipe tracking service with the ability to AI generate recipes!"
                              list={listFridgeWise} pic={FridgeWise} github="https://github.com/skimQ52/fridgeQ"
